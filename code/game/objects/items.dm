@@ -45,6 +45,10 @@
 	var/siemens_coefficient = 1 // for electrical admittance/conductance (electrocution checks and shit)
 	var/slowdown = 0 // How much clothing is slowing you down. Negative values speeds you up
 	var/slowdown_hold // How much holding an item slows you down.
+
+	var/stiffness = 0 // How much recoil is caused by moving
+	var/obscuration = 0 // How much firearm accuracy is decreased
+
 	var/datum/armor/armor // Ref to the armor datum
 	var/datum/armor/armor_up // Ref to the armor datum
 	var/datum/armor/armor_down // Ref to the armor datum
@@ -84,6 +88,18 @@
 
 	var/list/effective_faction = list() // Which faction the item is effective against.
 	var/damage_mult = 1 // The damage multiplier the item get when attacking that faction.
+	//Stolen things form tool qualities
+	var/eye_hazard = FALSE
+	var/use_power_cost = 0
+	var/use_fuel_cost = 0
+	var/obj/item/cell/cell = null
+	var/suitable_cell = null	//Dont forget to edit this for a tool, if you want in to consume cells
+	var/passive_power_cost = 0 //Energy consumed per process tick while active
+	var/use_stock_cost = 0
+	var/stock = 0
+	var/sparks_on_use = FALSE
+	//Used for stashes
+	var/start_hidden = FALSE
 
 /obj/item/Initialize()
 	if(islist(armor))
