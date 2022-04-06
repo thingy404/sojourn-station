@@ -4,7 +4,7 @@
 	desc = "A lighter, less armoured rig suit made from nanites and attached to someone's spine."
 	icon_state = "ihs_rig_old"
 	suit_type = "nanite suit"
-	armor = list(
+	armor_list = list(
 		melee = 30,
 		bullet = 30,
 		energy = 30,
@@ -35,7 +35,6 @@
 
 /obj/item/rig/nanite/New()
 	..()
-	Initialize()
 
 /obj/item/rig/nanite/Process()
 	..()

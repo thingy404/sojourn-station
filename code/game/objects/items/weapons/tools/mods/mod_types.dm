@@ -24,7 +24,7 @@
 		UPGRADE_FORCE_MOD = 1
 		)
 
-	I.required_qualities = list(QUALITY_BOLT_TURNING,QUALITY_PRYING, QUALITY_SAWING,QUALITY_SHOVELING,QUALITY_DIGGING,QUALITY_EXCAVATION)
+	I.required_qualities = list(QUALITY_BOLT_TURNING, QUALITY_PRYING, QUALITY_SAWING, QUALITY_SHOVELING, QUALITY_DIGGING, QUALITY_EXCAVATION)
 	I.prefix = "braced"
 
 //Heatsink can be attached to any tool that uses fuel or power
@@ -88,7 +88,7 @@
 	GUN_UPGRADE_RECOIL = 0.85,
 	UPGRADE_BULK = 1
 	)
-	I.required_qualities = list(QUALITY_CUTTING,QUALITY_DRILLING, QUALITY_SAWING, QUALITY_DIGGING, QUALITY_EXCAVATION, QUALITY_WELDING, QUALITY_HAMMERING)
+	I.required_qualities = list(QUALITY_CUTTING,QUALITY_DRILLING, QUALITY_SAWING, QUALITY_DIGGING, QUALITY_EXCAVATION, QUALITY_WELDING, QUALITY_HAMMERING, QUALITY_BONE_SETTING)
 	I.prefix = "shielded"
 
 // Plasmablock can be attached to any tool that uses fuel or power
@@ -131,7 +131,7 @@
 	UPGRADE_DEGRADATION_MULT = 0.7,
 	UPGRADE_HEALTH_THRESHOLD = 5
 	)
-	I.required_qualities = list(QUALITY_CUTTING,QUALITY_DRILLING, QUALITY_SAWING, QUALITY_DIGGING, QUALITY_EXCAVATION, QUALITY_WELDING, QUALITY_HAMMERING)
+	I.required_qualities = list(QUALITY_CUTTING, QUALITY_DRILLING, QUALITY_SAWING, QUALITY_DIGGING, QUALITY_EXCAVATION, QUALITY_WELDING, QUALITY_HAMMERING)
 	I.prefix = "rubber-wrapped"
 
 // 	 PRODUCTIVITY: INCREASES WORKSPEED
@@ -219,7 +219,7 @@
 	)
 	I.req_gun_tags = list(GUN_BAYONET)
 	I.gun_loc_tag = GUN_KNIFE
-	I.required_qualities = list(QUALITY_CUTTING,QUALITY_SAWING, QUALITY_SHOVELING, QUALITY_WIRE_CUTTING, QUALITY_SHOVELING, QUALITY_DIGGING)
+	I.required_qualities = list(QUALITY_CUTTING, QUALITY_SAWING, QUALITY_SHOVELING, QUALITY_WIRE_CUTTING, QUALITY_SHOVELING, QUALITY_DIGGING)
 	I.prefix = "sharpened"
 
 /obj/item/tool_upgrade/productivity/diamond_blade
@@ -433,7 +433,7 @@
 		GUN_UPGRADE_RECOIL = 0.8,
 	)
 	I.gun_loc_tag = GUN_GRIP
-	I.required_qualities = list(QUALITY_CUTTING,QUALITY_WIRE_CUTTING, QUALITY_SCREW_DRIVING, QUALITY_WELDING,QUALITY_PULSING, QUALITY_CLAMPING, QUALITY_CAUTERIZING, QUALITY_BONE_SETTING, QUALITY_LASER_CUTTING, QUALITY_SHOVELING, QUALITY_DIGGING, QUALITY_WEAVING)
+	I.required_qualities = list(QUALITY_CUTTING, QUALITY_WIRE_CUTTING, QUALITY_SCREW_DRIVING, QUALITY_WELDING,QUALITY_PULSING, QUALITY_CLAMPING, QUALITY_CAUTERIZING, QUALITY_BONE_SETTING, QUALITY_LASER_CUTTING, QUALITY_SHOVELING, QUALITY_DIGGING, QUALITY_WEAVING, QUALITY_BONE_GRAFTING)
 	I.prefix = "stabilized"
 
 /obj/item/tool_upgrade/refinement/magbit
@@ -530,7 +530,7 @@
 		UPGRADE_BULK = 0.5
 	)
 	I.gun_loc_tag = GUN_GRIP
-	I.required_qualities = list(QUALITY_CUTTING, QUALITY_WIRE_CUTTING, QUALITY_SCREW_DRIVING, QUALITY_WELDING ,QUALITY_PULSING, QUALITY_CLAMPING, QUALITY_CAUTERIZING, QUALITY_BONE_SETTING, QUALITY_LASER_CUTTING)
+	I.required_qualities = list(QUALITY_CUTTING, QUALITY_WIRE_CUTTING, QUALITY_SCREW_DRIVING, QUALITY_WELDING ,QUALITY_PULSING, QUALITY_CLAMPING, QUALITY_CAUTERIZING, QUALITY_BONE_SETTING, QUALITY_LASER_CUTTING, QUALITY_BONE_GRAFTING)
 	I.prefix = "vibration-compensated"
 
 // 		AUGMENTS: MISCELLANEOUS AND UTILITY
@@ -704,6 +704,35 @@
 	)
 	I.gun_loc_tag = GUN_MECHANISM
 	I.prefix = "sanctified"
+	I.req_fuel_cell = REQ_FUEL_OR_CELL
+
+/obj/item/tool_upgrade/augment/sanctifier_plus
+	name = "overclocked sanctifier"
+	icon_state = "sanctifier_plus"
+	desc = "Recommended for crusades against mutants, wild life, and heretics. Does this device actually make a better weapon or is it something else? Regardless, it makes one more thoughtful during labor. \
+	This one has been overclocked by members of the factortial path, increasing both its benefits and its drawbacks."
+	matter = list(MATERIAL_BIOMATTER = 3, MATERIAL_PLASTEEL = 2)
+	price_tag = 20
+
+/obj/item/tool_upgrade/augment/sanctifier_plus/New()
+	..()
+	var/datum/component/item_upgrade/I = AddComponent(/datum/component/item_upgrade)
+	I.tool_upgrades = list(
+	UPGRADE_SANCTIFY = TRUE,
+	UPGRADE_FORCE_MOD = 12,
+	UPGRADE_PRECISION = 15,
+	UPGRADE_HEALTH_THRESHOLD = 15,
+	UPGRADE_DEGRADATION_MULT = 0.7,
+	UPGRADE_WORKSPEED = -0.75
+	)
+	I.weapon_upgrades = list(
+	GUN_UPGRADE_RECOIL = 0.6,
+	GUN_UPGRADE_FIRE_DELAY_MULT = 1.3,
+	GUN_UPGRADE_MOVE_DELAY_MULT = 1.3,
+	GUN_UPGRADE_CHARGECOST = 0.7
+	)
+	I.gun_loc_tag = GUN_MECHANISM
+	I.prefix = "over sanctified"
 	I.req_fuel_cell = REQ_FUEL_OR_CELL
 
 /*

@@ -836,7 +836,6 @@
 /obj/item/reagent_containers/glass/bottle/hclacid,
 /obj/item/reagent_containers/glass/bottle/hydrazine,
 /obj/item/reagent_containers/glass/bottle/mercury,
-/obj/item/reagent_containers/glass/bottle/phosphorus,
 /obj/item/reagent_containers/glass/bottle/pacid,
 /obj/item/reagent_containers/glass/bottle/potassium,
 /obj/item/reagent_containers/glass/bottle/phosphorus,
@@ -846,6 +845,9 @@
 /obj/item/reagent_containers/glass/bottle/sodium,
 /obj/item/reagent_containers/glass/bottle/sulfur,
 /obj/item/reagent_containers/glass/bottle/tungsten,
+/obj/item/reagent_containers/glass/bottle/acetone,
+/obj/item/reagent_containers/glass/bottle/iron,
+/obj/item/reagent_containers/glass/bottle/lithium,
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/nadezhda/dungeon/outside/smuggler_zone_u)
 "dh" = (
@@ -901,6 +903,30 @@
 /obj/random/traps/low_chance,
 /turf/simulated/floor/tiled/dark,
 /area/nadezhda/dungeon/outside/zoo)
+"dr" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/glass/bottle/aluminum,
+/obj/item/reagent_containers/glass/bottle/ammonia,
+/obj/item/reagent_containers/glass/bottle/carbon,
+/obj/item/reagent_containers/glass/bottle/copper,
+/obj/item/reagent_containers/glass/bottle/ethanol,
+/obj/item/reagent_containers/glass/bottle/hclacid,
+/obj/item/reagent_containers/glass/bottle/hydrazine,
+/obj/item/reagent_containers/glass/bottle/mercury,
+/obj/item/reagent_containers/glass/bottle/phosphorus,
+/obj/item/reagent_containers/glass/bottle/pacid,
+/obj/item/reagent_containers/glass/bottle/potassium,
+/obj/item/reagent_containers/glass/bottle/radium,
+/obj/item/reagent_containers/glass/bottle/sacid,
+/obj/item/reagent_containers/glass/bottle/silicon,
+/obj/item/reagent_containers/glass/bottle/sodium,
+/obj/item/reagent_containers/glass/bottle/sulfur,
+/obj/item/reagent_containers/glass/bottle/tungsten,
+/obj/item/reagent_containers/glass/bottle/acetone,
+/obj/item/reagent_containers/glass/bottle/iron,
+/obj/item/reagent_containers/glass/bottle/lithium,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/nadezhda/dungeon/outside/smuggler_zone_u)
 "ds" = (
 /obj/structure/salvageable/console_os{
 	dir = 1
@@ -12138,7 +12164,7 @@
 /area/nadezhda/dungeon/outside/smuggler_zone_u)
 "Ua" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/reagent_containers/food/snacks/syndicake,
+/obj/item/reagent_containers/food/snacks/openable/syndicake,
 /turf/simulated/floor/carpet/bcarpet,
 /area/nadezhda/dungeon/outside/smuggler_zone_u)
 "Ub" = (
@@ -12945,7 +12971,7 @@
 /area/colony/exposedsun/pastgate)
 "Xm" = (
 /obj/effect/decal/cleanable/rubble,
-/mob/living/simple_animal/hostile/wurm/adult,
+/mob/living/simple_animal/hostile/wurm/osmium,
 /turf/simulated/floor/asteroid/dirt/dark,
 /area/asteroid/rogue)
 "Xo" = (
@@ -16282,7 +16308,7 @@ dp
 dp
 we
 wd
-dg
+dr
 bm
 sS
 aV
@@ -77122,7 +77148,7 @@ fE
 fE
 fE
 fE
-fE
+fF
 fF
 "}
 (105,1,2) = {"
@@ -77331,7 +77357,7 @@ fE
 fE
 fE
 fE
-fE
+fF
 fF
 "}
 (106,1,2) = {"
@@ -77540,7 +77566,7 @@ gf
 fE
 fE
 fE
-fE
+fF
 fF
 "}
 (107,1,2) = {"
@@ -77749,7 +77775,7 @@ hA
 hA
 fE
 fE
-fE
+fF
 fF
 "}
 (108,1,2) = {"
@@ -77958,7 +77984,7 @@ CC
 hA
 gf
 fE
-fE
+fF
 fF
 "}
 (109,1,2) = {"
@@ -78166,8 +78192,8 @@ Ae
 CC
 hA
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (110,1,2) = {"
@@ -78375,8 +78401,8 @@ Ae
 Ae
 CC
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (111,1,2) = {"
@@ -78584,8 +78610,8 @@ Ae
 Ae
 hA
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (112,1,2) = {"
@@ -78793,8 +78819,8 @@ Ae
 hW
 hA
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (113,1,2) = {"
@@ -79002,8 +79028,8 @@ hW
 hW
 hA
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (114,1,2) = {"
@@ -79211,8 +79237,8 @@ hW
 CC
 hA
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (115,1,2) = {"
@@ -79420,8 +79446,8 @@ CC
 CC
 hA
 gf
-fE
-fE
+fF
+fF
 fF
 "}
 (116,1,2) = {"
@@ -79630,7 +79656,7 @@ hA
 gf
 fE
 fE
-fE
+fF
 fF
 "}
 (117,1,2) = {"

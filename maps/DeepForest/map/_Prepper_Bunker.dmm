@@ -418,7 +418,6 @@
 "bq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb2,
-/obj/machinery/reagentgrinder/industrial,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/nadezhda/dungeon/outside/prepper/vault/floor5)
 "br" = (
@@ -526,26 +525,26 @@
 /area/nadezhda/dungeon/outside/prepper/vault/floor5)
 "bC" = (
 /obj/structure/table/rack/shelf,
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = 15
 	},
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = 12
 	},
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = 9
 	},
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = 5
 	},
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = 3
 	},
-/obj/item/reagent_containers/food/snacks/syndicake,
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake,
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = -5
 	},
-/obj/item/reagent_containers/food/snacks/syndicake{
+/obj/item/reagent_containers/food/snacks/openable/syndicake{
 	pixel_y = -10
 	},
 /turf/simulated/floor/tiled/dark/monofloor,

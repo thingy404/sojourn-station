@@ -33,7 +33,7 @@
 /area/nadezhda/outside/forest/river_forest_underground)
 "ag" = (
 /obj/effect/decal/cleanable/rubble,
-/mob/living/simple_animal/hostile/wurm/adult,
+/mob/living/simple_animal/hostile/wurm/osmium,
 /turf/simulated/floor/rock/grey,
 /area/nadezhda/outside/forest/river_forest_underground)
 "ah" = (
@@ -43,13 +43,13 @@
 /area/nadezhda/outside/forest/river_forest_underground)
 "ai" = (
 /obj/effect/decal/cleanable/rubble,
-/mob/living/simple_animal/hostile/wurm/adult,
+/mob/living/simple_animal/hostile/wurm/osmium,
 /turf/simulated/floor/rock,
 /area/nadezhda/outside/forest/river_forest_underground)
 "aj" = (
 /obj/item/oddity/common/broken_glass,
 /obj/effect/decal/cleanable/rubble,
-/mob/living/simple_animal/hostile/wurm/adult,
+/mob/living/simple_animal/hostile/wurm/osmium,
 /turf/simulated/floor/rock/grey,
 /area/nadezhda/outside/forest/river_forest_underground)
 "ak" = (
@@ -2659,7 +2659,7 @@
 /turf/simulated/floor/wood/wild4,
 /area/nadezhda/outside/forest/river_forest_underground)
 "Hh" = (
-/obj/item/reagent_containers/food/snacks/chips,
+/obj/item/reagent_containers/food/snacks/openable/chips,
 /turf/simulated/floor/asteroid/grass/jungle,
 /area/nadezhda/outside/forest/river_forest_light)
 "Hi" = (
@@ -3203,7 +3203,7 @@
 /turf/simulated/floor/rock/alt,
 /area/nadezhda/outside/forest/river_forest_dark)
 "Nt" = (
-/mob/living/simple_animal/hostile/wurm/adult,
+/mob/living/simple_animal/hostile/wurm/osmium,
 /turf/simulated/floor/rock,
 /area/nadezhda/outside/forest/river_forest_underground)
 "Nx" = (
@@ -3441,7 +3441,7 @@
 /area/nadezhda/outside/forest/river_forest_underground)
 "Rf" = (
 /obj/structure/table/bench/wooden,
-/obj/item/reagent_containers/food/snacks/chips,
+/obj/item/reagent_containers/food/snacks/openable/chips,
 /turf/simulated/floor/asteroid/grass/jungle,
 /area/nadezhda/outside/forest/river_forest_light)
 "Ri" = (

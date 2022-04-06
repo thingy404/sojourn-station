@@ -80,7 +80,7 @@
 		"sacid" =          -2,
 		"hclacid" =        -2,
 		"pacid" =          -4,
-		"plantbgone" =     -5,
+		"plantbgone" =     -8,
 		"adminordrazine" = -5
 		)
 	var/global/list/pestkiller_reagents = list(
@@ -330,7 +330,7 @@
 			if (seed.evolutions && seed.evolutions.len)
 				for(var/rid in seed.evolutions)
 
-					var/list/checkEvoChems = seed.evolutions[rid].Copy()
+					var/list/checkEvoChems = seed.evolutions[rid]?:Copy()
 
 					if (checkEvoChems ~= (checkEvoChems & seed.chems))
 						evolve_species(rid)

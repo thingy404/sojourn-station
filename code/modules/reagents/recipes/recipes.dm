@@ -3,11 +3,13 @@
 /datum/chemical_reaction/inaprovaline
 	result = "inaprovaline"
 	required_reagents = list("acetone" = 1, "carbon" = 1, "sugar" = 1)
+	//byproducts = list("water" = 1)
 	result_amount = 3
 
 /datum/chemical_reaction/dylovene
 	result = "anti_toxin"
 	required_reagents = list("silicon" = 1, "potassium" = 1, "ammonia" = 1)
+	//byproducts = list("water" = 1, "sugar" = 1)
 	result_amount = 3
 
 /datum/chemical_reaction/carthatoline
@@ -862,3 +864,22 @@
 	result = "chemweapon1"
 	required_reagents = list("hydrazine" = 1, "cyanide" = 1, "potassium_chloride" = 1, "lexorin" = 1)
 	result_amount = 2
+
+/datum/chemical_reaction/sterilizer
+	result = "sterilizer"
+	required_reagents = list("dermaline" = 1, "sodium" = 1, "sterilizine" = 1)
+	result_amount = 3
+	catalysts = list("clonexadone" = 5)
+
+/datum/chemical_reaction/sterilizer_crystal
+	result = null
+	required_reagents = list("sterilizer" = 20, "sulfur" = 20, "tungsten" = 20)
+	result_amount = 1
+	maximum_temperature = 40
+	minimum_temperature = 0
+	blacklist_containers = list(/mob, /obj/machinery/microwave)
+
+/datum/chemical_reaction/sterilizer_crystal/on_reaction(var/datum/reagents/holder, var/created_volume)
+	var/location = get_turf(holder.my_atom)
+	for(var/i = 1, i <= created_volume, i++)
+		new /obj/item/stack/sterilizer_crystal(location)

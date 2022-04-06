@@ -2,7 +2,7 @@
 	category = "Robots"
 	time = 100
 	related_stats = list(STAT_MEC)
-	avaliableToEveryone = FALSE // Only Roboticists know how to make robots. When adding new recipe, also add them to code/game/jobs/job/science.dm
+	requiredPerk = PERK_ROBOTICS_EXPERT
 
 // Control Module used in all the custom bots.
 /datum/craft_recipe/robotic/custom_board
@@ -155,6 +155,24 @@
 		list(/obj/item/robot_parts/robot_component/actuator, 2, "time" = 60),
 		list(/obj/item/robot_parts/robot_component/camera, 1, "time" = 60),
 		list(/obj/item/tool/pickaxe/diamonddrill, 1, "time" = 60),
+		list(QUALITY_WELDING, 10, "time" = 60),
+		list(QUALITY_BOLT_TURNING, 10, "time" = 180),
+		list(QUALITY_SCREW_DRIVING, 10, "time" = 90)
+	)
+
+/datum/craft_recipe/robotic/chicken
+	name = "Chemical Housing Internal Combustion Kit"
+	result = /mob/living/simple_animal/metal_chicken
+	steps = list(
+		list(CRAFT_MATERIAL, 10, MATERIAL_STEEL, "time" = 30),
+		list(CRAFT_MATERIAL, 10, MATERIAL_PLASTIC, "time" = 30),
+		list(CRAFT_MATERIAL, 10, MATERIAL_PLASTEEL, "time" = 30),
+		list(CRAFT_MATERIAL, 10, MATERIAL_GLASS, "time" = 30),
+		list(/obj/item/bot_part/roomba/roomba_treads, 2, "time" = 60),
+		list(/obj/item/robot_parts/robot_component/actuator, 2, "time" = 60),
+		list(/obj/item/robot_parts/robot_component/camera, 1, "time" = 60),
+		list(/obj/structure/reagent_dispensers/bidon, 1, "time" = 30),
+		list(/obj/item/circuitboard/chicken, 1,"time" = 30),
 		list(QUALITY_WELDING, 10, "time" = 60),
 		list(QUALITY_BOLT_TURNING, 10, "time" = 180),
 		list(QUALITY_SCREW_DRIVING, 10, "time" = 90)

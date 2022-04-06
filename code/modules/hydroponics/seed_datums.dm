@@ -105,6 +105,30 @@
 	set_trait(TRAIT_PRODUCT_COLOUR,"#7A5454")
 	set_trait(TRAIT_NUTRIENT_CONSUMPTION, 0.35)
 
+/datum/seed/blueberry
+	name = "blueberries"
+	seed_name = "blueberry"
+	display_name = "blueberry bush"
+	chems = list("nutriment" = list(1,10), "blueberryjuice" = list(10,10))
+	kitchen_tag = "blueberries"
+
+
+/datum/seed/blueberry/New()
+	..()
+	set_trait(TRAIT_HARVEST_REPEAT,1)
+	set_trait(TRAIT_JUICY,1)
+	set_trait(TRAIT_MATURATION,5)
+	set_trait(TRAIT_PRODUCTION,5)
+	set_trait(TRAIT_YIELD,2)
+	set_trait(TRAIT_POTENCY,10)
+	set_trait(TRAIT_PRODUCT_ICON,"berry")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#3BA4EC")
+	set_trait(TRAIT_PLANT_ICON,"bush")
+	set_trait(TRAIT_IDEAL_HEAT, 298)
+	set_trait(TRAIT_IDEAL_LIGHT, 7)
+	set_trait(TRAIT_WATER_CONSUMPTION, 6)
+	set_trait(TRAIT_NUTRIENT_CONSUMPTION, 0.15)
+
 // Nettles/variants.
 /datum/seed/nettle
 	name = "nettle"
@@ -193,7 +217,6 @@
 	..()
 	set_trait(TRAIT_YIELD,2)
 	set_trait(TRAIT_PRODUCT_COLOUR,"#A86747")
-	set_trait(TRAIT_CARNIVOROUS, 2)
 
 /datum/seed/tomato/blue
 	name = "bluetomato"
@@ -653,6 +676,96 @@
 	set_trait(TRAIT_PLANT_ICON,"mushroom10")
 
 
+/datum/seed/mushroom/maintshroom
+	name = "fungoartiglieria"
+	seed_name = "Fungo di Artiglieria mushroom"
+	display_name = "Fungo di Artiglieria"
+	mutants = null
+
+/datum/seed/mushroom/maintshroom/New()
+	..()
+	set_trait(TRAIT_MATURATION,6)
+	set_trait(TRAIT_PRODUCTION,6)
+	set_trait(TRAIT_YIELD,10)
+	set_trait(TRAIT_POTENCY,12)//
+	set_trait(TRAIT_REQUIRES_NUTRIENTS, FALSE)
+	set_trait(TRAIT_REQUIRES_WATER, FALSE)
+	set_trait(TRAIT_PRODUCT_ICON,"mushroom3")
+	set_trait(TRAIT_WALL_HUGGER,1)
+
+	set_trait(TRAIT_PLANT_ICON,"fungoartiglieria")
+	set_trait(TRAIT_SPREAD, 2)
+	set_trait(TRAIT_CHEMS, 1)
+	set_trait(TRAIT_CHEM_SPRAYER, TRUE)
+
+	chems = list()
+	var/list/possible_chems = list(
+		"woodpulp",
+		"bicaridine",
+		"hyperzine",
+		"cryoxadone",
+		"blood",
+		"water",
+		"potassium",
+		"plasticide",
+		"mutationtoxin",
+		"amutationtoxin",
+		"inaprovaline",
+		"space_drugs",
+		"paroxetine",
+		"mercury",
+		"sugar",
+		"radium",
+		"ryetalyn",
+		"alkysine",
+		"clonexadone",
+		"thermite",
+		"tramadol",
+		"cryptobiolin",
+		"dermaline",
+		"dexalin",
+		"synaptizine",
+		"impedrezene",
+		"hyronalin",
+		"peridaxon",
+		"chemweapon1",
+		"toxin",
+		"rezadone",
+		"ethylredoxrazine",
+		"slimejelly",
+		"cyanide",
+		"mindbreaker",
+		"stoxin",
+		"acetone",
+		"hydrazine",
+		"blattedin",
+		"honey",
+		"frostoil",
+		"capsaicin",
+		"banana",
+		"mutagen",
+		"chloralhydrate"
+		)
+
+
+
+	var/new_chem = pick(possible_chems)
+	chems[new_chem] = list(rand(1,5),rand(5,10))
+
+	//Set the maintshroom to the hue of the chem
+	var/datum/reagent/chem = GLOB.chemical_reagents_list[new_chem]
+	var/color = chem.color
+
+	//Color Wizardry
+	//We will take the color's hue completely
+	//We will cap its saturation to a low value, giving more of a pastel shade
+	//We will hard set the brightness to max
+	var/list/HSV = ReadHSV(RGBtoHSV(color))
+	color = set_HSV(color, list(null, min(HSV[2],100), 255))
+
+	if (chem)
+		set_trait(TRAIT_PLANT_COLOUR,color)
+		set_trait(TRAIT_PRODUCT_COLOUR,color)
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -828,7 +941,6 @@
 	display_name = "Clownana tree"
 	has_mob_product = /mob/living/simple_animal/hostile/retaliate/clown/banana
 	exude_gasses = list("sleeping_agent" = 8)
-	can_self_harvest = 1
 
 /datum/seed/banana/clownana/New()
 	..()
@@ -1233,8 +1345,7 @@
 	set_trait(TRAIT_PRODUCTION,6)
 	set_trait(TRAIT_YIELD,4)
 	set_trait(TRAIT_POTENCY,10)
-	set_trait(TRAIT_SPREAD,2)
-	set_trait(TRAIT_WALL_HUGGER,1)
+	set_trait(TRAIT_SPREAD,3)
 	set_trait(TRAIT_PRODUCT_ICON,"treefruit")
 	set_trait(TRAIT_PRODUCT_COLOUR,"#96D278")
 	set_trait(TRAIT_PLANT_COLOUR,"#6F7A63")
@@ -1410,8 +1521,8 @@
 	set_trait(TRAIT_MATURATION,5)
 	set_trait(TRAIT_PRODUCTION,1)
 	set_trait(TRAIT_YIELD,3)
-	set_trait(TRAIT_POTENCY,40)
-	set_trait(TRAIT_SPREAD,2)
+	set_trait(TRAIT_POTENCY,3)
+	set_trait(TRAIT_SPREAD,1)
 	set_trait(TRAIT_STINGS, 1)
 
 // Alien weeds.
@@ -1452,3 +1563,121 @@
 	set_trait(TRAIT_SPREAD,3)
 	set_trait(TRAIT_POTENCY,50)
 	set_trait(TRAIT_INVASIVE,1)
+
+
+///////////////////
+// The following were lovingly stolen/ported from Occulus-Eris
+// Coding: ShadzFen
+// Spriting: Sigmasquad
+
+/datum/seed/blueberry
+	name = "blueberries"
+	seed_name = "blueberry"
+	display_name = "blueberry bush"
+	chems = list("nutriment" = list(1,10), "blueberryjuice" = list(10,10))
+	kitchen_tag = "blueberries"
+
+
+/datum/seed/blueberry/New()
+	..()
+	set_trait(TRAIT_HARVEST_REPEAT,1)
+	set_trait(TRAIT_JUICY,1)
+	set_trait(TRAIT_MATURATION,5)
+	set_trait(TRAIT_PRODUCTION,5)
+	set_trait(TRAIT_YIELD,2)
+	set_trait(TRAIT_POTENCY,10)
+	set_trait(TRAIT_PRODUCT_ICON,"berry")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#3BA4EC")
+	set_trait(TRAIT_PLANT_ICON,"bush")
+	set_trait(TRAIT_IDEAL_HEAT, 298)
+	set_trait(TRAIT_IDEAL_LIGHT, 7)
+	set_trait(TRAIT_WATER_CONSUMPTION, 6)
+	set_trait(TRAIT_NUTRIENT_CONSUMPTION, 0.15)
+
+
+/datum/seed/strawberry
+	name = "strawberries"
+	seed_name = "strawberries"
+	display_name = "strawberry bush"
+	chems = list("nutriment" = list(1,10), "strawberryjuice" = list(10,10))
+	kitchen_tag = "strawberries"
+
+/datum/seed/strawberry/New()
+	..()
+	set_trait(TRAIT_HARVEST_REPEAT,1)
+	set_trait(TRAIT_JUICY,1)
+	set_trait(TRAIT_MATURATION,5)
+	set_trait(TRAIT_PRODUCTION,5)
+	set_trait(TRAIT_YIELD,2)
+	set_trait(TRAIT_POTENCY,10)
+	set_trait(TRAIT_PRODUCT_ICON,"strawberry")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#FF0606")
+	set_trait(TRAIT_PLANT_ICON,"bush")
+	set_trait(TRAIT_IDEAL_HEAT, 298)
+	set_trait(TRAIT_IDEAL_LIGHT, 7)
+	set_trait(TRAIT_WATER_CONSUMPTION, 6)
+	set_trait(TRAIT_NUTRIENT_CONSUMPTION, 0.15)
+
+/datum/seed/pineapple
+	name = "pineapple"
+	seed_name = "pineapple"
+	display_name = "pineapple shrub"
+	chems = list("nutriment" = list(10,20), "pineapplejuice" = list(20,30))
+	kitchen_tag = "pineapples"
+
+/datum/seed/pineapple/New()
+	..()
+	set_trait(TRAIT_HARVEST_REPEAT,2)
+	set_trait(TRAIT_MATURATION,6)
+	set_trait(TRAIT_PRODUCTION,6)
+	set_trait(TRAIT_YIELD,1)
+	set_trait(TRAIT_PRODUCT_ICON,"pineapple")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#FBFBFB")
+	set_trait(TRAIT_PLANT_COLOUR,"#69AD50")
+	set_trait(TRAIT_PLANT_ICON,"pineapple")
+	set_trait(TRAIT_IDEAL_HEAT, 298)
+	set_trait(TRAIT_IDEAL_LIGHT, 7)
+	set_trait(TRAIT_WATER_CONSUMPTION, 6)
+
+/datum/seed/cinnamon
+	name = "cinnamon"
+	seed_name = "cinnamon"
+	display_name = "cinnamon"
+	chems = list("cinnamonpowder" = list(6,12))
+
+/datum/seed/cinnamon/New()
+	..()
+	set_trait(TRAIT_HARVEST_REPEAT,1)
+	set_trait(TRAIT_MATURATION,3)
+	set_trait(TRAIT_PRODUCTION,6)
+	set_trait(TRAIT_YIELD,4)
+	set_trait(TRAIT_POTENCY,10)
+	set_trait(TRAIT_PRODUCT_ICON,"cinnamon")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#e4a073")
+	set_trait(TRAIT_PLANT_COLOUR,"#4bbc46")
+	set_trait(TRAIT_PLANT_ICON,"stalk3")
+	set_trait(TRAIT_IDEAL_HEAT, 298)
+
+/datum/seed/mint
+	name = "mint"
+	seed_name = "mint"
+	display_name = "mint plant"
+	chems = list("blendedmint" = list(10,10))
+	kitchen_tag = "mint"
+
+/datum/seed/mint/New()
+	..()
+	set_trait(TRAIT_HARVEST_REPEAT,1)
+	set_trait(TRAIT_MATURATION,6)
+	set_trait(TRAIT_PRODUCTION,6)
+	set_trait(TRAIT_YIELD,5)
+	set_trait(TRAIT_PRODUCT_ICON,"mint")
+	set_trait(TRAIT_PRODUCT_COLOUR,"#8AFF24")
+	set_trait(TRAIT_PLANT_COLOUR,"#749733")
+	set_trait(TRAIT_PLANT_ICON,"mint")
+	set_trait(TRAIT_IDEAL_HEAT, 299)
+	set_trait(TRAIT_IDEAL_LIGHT, 7)
+	set_trait(TRAIT_WATER_CONSUMPTION, 6)
+	set_trait(TRAIT_NUTRIENT_CONSUMPTION, 0.15)
+
+/////////////////

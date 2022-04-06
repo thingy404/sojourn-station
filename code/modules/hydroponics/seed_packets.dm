@@ -184,7 +184,8 @@ var/global/list/plant_seed_sprites = list()
 /obj/item/seeds/glowshroom
 	seed_type = "glowshroom"
 
-
+/obj/item/seeds/maintshroom
+	seed_type = "fungoartiglieria"
 
 /obj/item/seeds/plumpmycelium
 	seed_type = "plumphelmet"
@@ -287,3 +288,18 @@ var/global/list/plant_seed_sprites = list()
 
 /obj/item/seeds/thaadra
 	seed_type = "thaadra"
+
+/obj/item/seeds/blueberryseed
+	seed_type = "blueberries"
+
+/obj/item/seeds/strawberryseed
+	seed_type = "strawberries"
+
+/obj/item/seeds/pineappleseed
+	seed_type = "pineapple"
+
+/obj/item/seeds/cinnamonseed
+	seed_type = "cinnamon"
+
+/obj/item/seeds/mintseed
+	seed_type = "mint"
