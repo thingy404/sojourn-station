@@ -114,6 +114,14 @@
 	base_icon = "shuttle_chair"
 	applies_material_colour = 0
 
+/obj/structure/bed/chair/diesel
+	name = "chair"
+	desc = "A rusted metal folding chair."
+	icon_state = "dieselmetalchair"
+	base_icon = "dieselmetalchair"
+	color = null
+	applies_material_colour = 0
+
 // Leaving this in for the sake of compilation.
 /obj/structure/bed/chair/comfy
 	desc = "It's a chair. It looks comfy."
@@ -241,6 +249,11 @@
 
 /obj/structure/bed/chair/wood/wings
 	icon_state = "wooden_chair_wings"
+
+/obj/structure/bed/chair/wood/diesel
+	icon_state = "dieselchair"
+	color = null
+
 
 //to here
 
@@ -464,3 +477,21 @@
 
 /obj/structure/bed/chair/sofa/yellow/corner
 	icon_state = "sofacorner"
+
+/obj/structure/bed/chair/sofa/dieselbooth
+	name = "booth"
+	desc = "A diner-styled booth seat."
+	icon = 'icons/obj/sofas.dmi'
+	icon_state = "booth_single"
+	applies_material_colour = 0
+	color = null
+
+
+/obj/structure/bed/chair/sofa/dieselbooth/left
+	icon_state = "booth_left"
+
+/obj/structure/bed/chair/sofa/dieselbooth/right
+	icon_state = "booth_right"
+
+/obj/structure/bed/chair/sofa/dieselbooth/middle
+	icon_state = "booth_middle"

@@ -121,3 +121,86 @@
 			. -= UWI
 
 #undef WARDROBE_BLIND_MESSAGE
+
+/obj/structure/dresser
+	name = "dresser"
+	desc = "A nicely-crafted wooden dresser. It's filled with lots of undies."
+	icon = 'icons/obj/closet.dmi'
+	icon_state = "dresser"
+	w_class = ITEM_SIZE_NORMAL
+	density = 1
+//AP says: this is just the underwear wardrobe code but without ID card nonsense
+/obj/structure/dresser/attackby(var/obj/item/underwear/underwear, var/mob/user)
+	if(istype(underwear))
+		if(!user.unEquip(underwear))
+			return
+		qdel(underwear)
+		user.visible_message("<span class='notice'>\The [user] inserts \their [underwear.name] into \the [src].</span>", "<span class='notice'>You insert your [underwear.name] into \the [src].</span>")
+
+/obj/structure/dresser/attack_hand(var/mob/user)
+	if(!human_who_can_use_underwear(user))
+		to_chat(user, "<span class='warning'>Sadly there's nothing in here for you to wear.</span>")
+		return
+	interact(user)
+
+
+/obj/structure/dresser/interact(var/mob/living/carbon/human/H)
+
+	var/dat = list()
+	dat += "<b>Underwear</b><br><hr>"
+	dat += "<b>Available Categories</b><br><hr>"
+	for(var/datum/category_group/underwear/UWC in GLOB.underwear.categories)
+		dat += "[UWC.name] <a href='?src=\ref[src];select_underwear=[UWC.name]'>(Select)</a><br>"
+	dat = jointext(dat,null)
+	show_browser(H, dat, "window=wardrobe;size=400x250")
+
+/obj/structure/dresser/proc/human_who_can_use_underwear(var/mob/living/carbon/human/H)
+	if(!istype(H) || !H.form || !(H.form.appearance_flags & HAS_UNDERWEAR))
+		return FALSE
+	return TRUE
+
+/obj/structure/dresser/CanUseTopic(var/user)
+	if(!human_who_can_use_underwear(user))
+		return STATUS_CLOSE
+
+	return ..()
+
+/obj/structure/dresser/Topic(href, href_list, state)
+	if(..())
+		return TRUE
+
+	var/mob/living/carbon/human/H = usr
+	if(href_list["select_underwear"])
+		var/datum/category_group/underwear/UWC = GLOB.underwear.categories_by_name[href_list["select_underwear"]]
+		if(!UWC)
+			return
+		var/datum/category_item/underwear/UWI = input("Select your desired underwear:", "Choose underwear") as null|anything in exclude_none(UWC.items)
+		if(!UWI)
+			return
+
+		var/list/metadata_list = list()
+		for(var/tweak in UWI.tweaks)
+			var/datum/gear_tweak/gt = tweak
+			var/metadata = gt.get_metadata(H, title = "Adjust underwear")
+			if(!metadata)
+				return
+			metadata_list["[gt]"] = metadata
+
+		if(!CanInteract(H, state))
+			return
+
+		var/obj/UW = UWI.create_underwear(loc, metadata_list, H.form.underwear_icon)
+		UW.forceMove(loc)
+		H.put_in_hands(UW)
+
+		. = TRUE
+
+	if(.)
+		interact(H)
+
+/obj/structure/dresser/proc/exclude_none(var/list/L)
+	. = L.Copy()
+	for(var/e in .)
+		var/datum/category_item/underwear/UWI = e
+		if(!UWI.underwear_type)
+			. -= UWI

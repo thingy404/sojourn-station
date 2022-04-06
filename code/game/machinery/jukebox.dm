@@ -193,7 +193,7 @@
 		else
 			add_overlay("[state_base]-running")
 	if (panel_open)
-		add_overlay("panel_open")
+		add_overlay("[state_base]_open")
 
 /obj/machinery/media/jukebox/Topic(href, href_list)
 	if(..() || !(Adjacent(usr) || issilicon(usr)))
@@ -372,3 +372,9 @@
 		my_tape = null
 	else
 		to_chat(usr, SPAN_NOTICE("There is no tape inside [src]."))
+
+/obj/machinery/media/jukebox/diesel
+	name = "music radio"
+	desc = "The hottest in sound systems. Looks like this can play all kinds of tapes."
+	icon_state = "radio-nopower"
+	state_base = "radio"

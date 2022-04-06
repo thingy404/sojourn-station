@@ -158,6 +158,15 @@
 	if(contents.len && !(stat & NOPOWER))
 		add_overlay(image(icon, icon_fill))
 
+/obj/machinery/smartfridge/drinks/diesel
+	name = "bottle rack"
+	desc = "A wooden storage unit designed for ottles, typically alcohol."
+	icon_state = "bottlerack"
+	icon_on = "bottlerack"
+	icon_off = "bottlerack"
+	icon_panel = "bottlerack"
+	icon_fill = "bottlerack-fill"
+
 /***************************
 *   Hydroponics Drying Rack
 ****************************/

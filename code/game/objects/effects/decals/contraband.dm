@@ -478,6 +478,16 @@
 	desc = "A poster of a white rabbit with a blue science coat asking the all imporant question of WHY? Of course the answer is Why not!"
 	icon_state = "poster36_legit"
 
+/obj/item/contraband/poster/placed/generic/calendar
+	name = "calendar"
+	desc = "A worn calendar tracking the days."
+	icon_state = "calendar"
+
+/obj/item/contraband/poster/placed/generic/calendar2
+	name = "calendar"
+	desc = "A worn calendar tracking the days."
+	icon_state = "calendar2"
+
 /*Advert*/
 
 /obj/item/contraband/poster/placed/advertisement/ion_rifle

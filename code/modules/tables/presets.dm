@@ -146,3 +146,28 @@
 /obj/structure/table/bench/glass/New()
 	material = get_material_by_name(MATERIAL_GLASS)
 	..()
+
+
+
+
+
+/obj/structure/table/dieselmetal
+	icon_state = "steel_preview"
+	color = null
+	New()
+		material = get_material_by_name(MATERIAL_STEEL)
+		..()
+
+/obj/structure/table/dieselbooth
+	icon_state = "booth_preview"
+	color = null
+	New()
+		material = get_material_by_name(MATERIAL_STEEL)
+		..()
+
+/obj/structure/table/dieselwood
+	icon_state = "dwood_preview"
+	color = null
+	New()
+		material = get_material_by_name(MATERIAL_WOOD)
+		..()
