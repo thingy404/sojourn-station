@@ -788,7 +788,7 @@ var/list/flooring_types
 /decl/flooring/grass
 	name = "grass"
 	icon = 'icons/turf/flooring/grass.dmi'
-	icon_base = "grass"
+	icon_base = "grass1"
 	has_base_range = 3
 	damage_temperature = T0C+80
 	flags = TURF_REMOVE_SHOVEL | TURF_EDGES_EXTERNAL | TURF_HAS_CORNERS
@@ -811,6 +811,9 @@ var/list/flooring_types
 
 /decl/flooring/grass2/virgoforestdark
 	icon_base = "grass-dark"
+
+/decl/flooring/grass/swampy
+	icon_base = "swampy1"
 
 /decl/flooring/grass2/sif
 	icon_base = "grass_sif"
@@ -864,7 +867,7 @@ var/list/flooring_types
 /decl/flooring/dirt
 	name = "dirt"
 	icon = 'icons/turf/flooring/dirt.dmi'
-	icon_base = "dirt"
+	icon_base = "dirt1"
 	build_type = null
 	footstep_sound = "gravel"
 	resistance = RESISTANCE_TOUGH
@@ -872,6 +875,9 @@ var/list/flooring_types
 
 /decl/flooring/dirt/dark
 	icon_base = "dirtnewdark"
+
+/decl/flooring/dirt/rocky
+	icon_base = "rocky1"
 
 /decl/flooring/dirt/dark/plough
 	icon_base = "dirt_ploughed"
@@ -945,6 +951,9 @@ var/list/flooring_types
 
 /decl/flooring/rock/manmade/asphalt
 	icon_base = "asphalt"
+
+/decl/flooring/rock/manmade/gravel
+	icon_base = "gravel"
 
 /decl/flooring/rock/manmade/road
 	icon_base = "road_1"

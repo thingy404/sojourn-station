@@ -549,8 +549,20 @@
 /turf/simulated/floor/asteroid/grass
 	name = "grass"
 	icon = 'icons/turf/flooring/grass.dmi'
-	icon_state = "grass0"
+	icon_state = "grass1"
 	initial_flooring = /decl/flooring/grass
+
+/turf/simulated/floor/asteroid/grass/New()
+	icon_state = "grass[rand(1, 3)]"
+
+/turf/simulated/floor/asteroid/grass/swampy
+	name = "grass"
+	icon = 'icons/turf/flooring/grass.dmi'
+	icon_state = "swampy1"
+	initial_flooring = /decl/flooring/grass/swampy
+
+/turf/simulated/floor/asteroid/grass/swampy/New()
+	icon_state = "swampy[rand(1, 3)]"
 
 /turf/simulated/floor/asteroid/grass/virgoforest
 	icon_state = "grass-light"
@@ -628,10 +640,20 @@
 
 /turf/simulated/floor/asteroid/dirt
 	name = "dirt"
-	desc = "Course and unpleasent."
+	desc = "Course and unpleasant."
 	icon = 'icons/turf/flooring/dirt.dmi'
-	icon_state = "dirt"
+	icon_state = "dirt1"
 	initial_flooring = /decl/flooring/dirt
+
+/turf/simulated/floor/asteroid/dirt/New()
+	icon_state = "dirt[rand(1, 3)]"
+
+/turf/simulated/floor/asteroid/dirt/rocky
+	icon_state = "rocky1"
+	initial_flooring = /decl/flooring/dirt/rocky
+
+/turf/simulated/floor/asteroid/dirt/rocky/New()
+	icon_state = "rocky[rand(1, 8)]"
 
 /turf/simulated/floor/asteroid/dirt/dark
 	icon_state = "dirtnewdark"
@@ -741,6 +763,11 @@
 	name = "asphalt"
 	icon_state = "asphalt"
 	initial_flooring = /decl/flooring/rock/manmade/asphalt
+
+/turf/simulated/floor/rock/manmade/gravel
+	name = "gravel"
+	icon_state = "gravel"
+	initial_flooring = /decl/flooring/rock/manmade/gravel
 
 /turf/simulated/floor/rock/manmade/road
 	name = "gravel road"
