@@ -10,6 +10,11 @@
 	var/number = 0
 	var/last_tick //used to delay the powercheck
 
+/obj/item/device/radio/intercom/diesel
+	name = "communications radio"
+	desc = "A rustic communications set with many dials."
+	icon_state = "commradio"
+
 /obj/item/device/radio/intercom/custom
 	name = "colony intercom (Custom)"
 	broadcasting = 0

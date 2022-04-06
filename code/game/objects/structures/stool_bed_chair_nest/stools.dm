@@ -167,3 +167,18 @@ var/global/list/stool_cache = list() //haha stool
 /obj/item/stool/custom/bar_special
 	name = "bar stool"
 	icon_state = "bar_stool"
+
+/obj/item/stool/custom/dieselred
+	name = "bar stool"
+	desc = "A worn stool with red padding."
+	icon_state = "dieselred"
+
+/obj/item/stool/custom/dieselblack
+	name = "bar stool"
+	desc = "A worn stool with black padding."
+	icon_state = "dieselblack"
+
+/obj/item/stool/custom/dieseltan
+	name = "bar stool"
+	desc = "A worn stool with tan padding."
+	icon_state = "dieseltan"

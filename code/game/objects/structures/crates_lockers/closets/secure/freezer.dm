@@ -47,6 +47,9 @@
 		new /obj/item/storage/fancy/egg_box(src)
 		new /obj/item/reagent_containers/food/condiment/cookingoil(src)
 
+/obj/structure/closet/secure_closet/freezer/diesel
+	icon_state = "frig"
+
 /obj/structure/closet/secure_closet/freezer/money
 	name = "freezer"
 	icon_state = "freezer"

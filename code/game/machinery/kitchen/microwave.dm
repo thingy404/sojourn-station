@@ -493,3 +493,19 @@
 	lit_fam = FALSE // Have to do both of these so that it's not kept lit to operate after changing icon_state to its broken one
 	set_light(0) // Just to be safe.
 
+/obj/machinery/microwave/stove
+	name = "stove"
+	desc = "A gas stove for cooking."
+	icon_state = "stove"
+
+/obj/machinery/microwave/stove/update_icon()
+	if(broken)
+		icon_state = "stoveb"
+	else if(dirty == 100)
+		icon_state = "stovebloody"
+	else if(operating)
+		icon_state = "stove1"
+	else if(panel_open)
+		icon_state = "stove"
+	else
+		icon_state = "stove"

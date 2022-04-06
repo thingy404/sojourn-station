@@ -21,3 +21,6 @@
 	new /obj/item/storage/backpack/satchel/leather/withwallet(src)
 	new /obj/item/device/radio/headset(src)
 
+/obj/structure/closet/secure_closet/personal/cabinet/diesel
+	icon_state = "dieselcabinet"
+	icon_lock = "dieselcabinet"
