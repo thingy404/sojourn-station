@@ -66,3 +66,12 @@
 	desc = "A rugged table constructed from solid wood."
 	icon_state = "diesel8"
 
+/obj/structure/table/rack/diesel/grand
+	name = "table"
+	desc = "A grand wooden table. This must be very heavy."
+	icon_state = "diesel9"
+
+/obj/structure/table/rack/diesel/grand/middle
+	icon_state = "diesel10"
+
+

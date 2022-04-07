@@ -648,6 +648,25 @@
 	basestate = "w"
 	dir = 5
 
+/obj/structure/window/fulltile
+	dir = 5
+
+/obj/structure/window/fulltile/wood
+	icon_state = "diesel1"
+
+/obj/structure/window/fulltile/wood2
+	icon_state = "diesel2"
+
+/obj/structure/window/fulltile/metal
+	icon_state = "diesel3"
+	maxHealth = 80
+	resistance = RESISTANCE_FRAGILE
+
+/obj/structure/window/fulltile/metal2
+	icon_state = "diesel4"
+	maxHealth = 80
+	resistance = RESISTANCE_FRAGILE
+
 /obj/structure/window/reinforced/polarized
 	name = "electrochromic window"
 
