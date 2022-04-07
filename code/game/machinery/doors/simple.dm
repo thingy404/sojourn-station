@@ -174,6 +174,62 @@
 /obj/machinery/door/unpowered/simple/wood/New(var/newloc,var/material_name)
 	..(newloc, MATERIAL_WOOD)
 
+/obj/machinery/door/unpowered/simple/wood/diesel1
+	icon_state = "diesel1"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel2
+	icon_state = "diesel2"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel3
+	icon_state = "diesel3"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel4
+	icon_state = "diesel4"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel5
+	icon_state = "diesel5"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel6
+	icon_state = "diesel6"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel7
+	icon_state = "diesel7"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel8
+	icon_state = "diesel8"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel9
+	icon_state = "diesel9"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel10
+	icon_state = "diesel10"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel11
+	icon_state = "diesel11"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel12
+	icon_state = "diesel12"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel13
+	icon_state = "diesel13"
+	color = null
+
+/obj/machinery/door/unpowered/simple/wood/diesel14
+	icon_state = "diesel14"
+	color = null
+
 /obj/machinery/door/unpowered/simple/wood/saloon
 	autoclose = 1
 	normalspeed = 0
