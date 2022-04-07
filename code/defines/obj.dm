@@ -115,6 +115,24 @@
 	anchored = 0
 	density = 0
 
+/obj/structure/showcase/hunterdisplay1
+	name = "mounted display"
+	icon = 'icons/obj/stationobjs.dmi'
+	icon_state = "beast1"
+	desc = "A beast cut down to size by the Hunters. This one is (was!) a fierce bear."
+
+/obj/structure/showcase/hunterdisplay2
+	name = "mounted display"
+	icon = 'icons/obj/stationobjs.dmi'
+	icon_state = "beast2"
+	desc = "A beast cut down to size by the Hunters. This one is (was!) a colorful carp."
+
+/obj/structure/showcase/hunterdisplay3
+	name = "mounted display"
+	icon = 'icons/obj/stationobjs.dmi'
+	icon_state = "beast3"
+	desc = "A beast cut down to size by the Hunters. This one is (was!) some kind of robot."
+
 /obj/structure/showcase/horrific_experiment_cryo
 	name = "horrific experiment"
 	desc = "A large pod absolutely filled with blood. It looks like something else is inside, too..."
