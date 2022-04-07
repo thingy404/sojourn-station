@@ -162,3 +162,12 @@
 
 /obj/structure/sign/neon/gamecenter/right
 	icon_state = "gamecenter-right"
+
+/obj/structure/sign/neon/rent
+	icon_state = "rent"
+	light_color = "#da0205" //red
+
+/obj/structure/sign/neon/sharkweek
+	icon = 'icons/obj/decals-neon64.dmi'
+	icon_state = "sharkweek"
+	light_color = "#7DD3FF"  //sky blue
