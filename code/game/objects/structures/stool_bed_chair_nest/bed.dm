@@ -212,6 +212,16 @@
 /obj/structure/bed/padded/New(var/newloc)
 	..(newloc, MATERIAL_PLASTIC, "cotton")
 
+/obj/structure/bed/ragged
+	name = "ragged bed"
+	desc = "Constructed from crude materials and only just better than the floor."
+	icon_state = "ragged"
+	base_icon = "ragged"
+	color = null
+
+/obj/structure/bed/ragged/New(var/newloc)
+	..(newloc, MATERIAL_WOOD, MATERIAL_LEATHER)
+
 /obj/structure/bed/double
 	name = "double bed"
 	icon_state = "doublebed"
