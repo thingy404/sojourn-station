@@ -603,6 +603,41 @@ var/list/flooring_types
 	build_type = /obj/item/stack/tile/floor/techmaint/cargo
 	footstep_sound = "floor"
 
+/decl/flooring/tiling/lino
+	name = "floor"
+	icon_base = "lino"
+	icon = 'icons/turf/flooring/tiles_maint.dmi'
+	build_type = /obj/item/stack/material/steel
+	footstep_sound = "floor"
+
+/decl/flooring/tiling/lino/grey
+	icon_base = "lino2"
+
+/decl/flooring/tiling/rustic
+	name = "floor"
+	icon_base = "tile_neutral"
+	icon = 'icons/turf/flooring/tiles_rustic.dmi'
+	build_type = /obj/item/stack/material/steel
+	footstep_sound = "floor"
+
+/decl/flooring/tiling/rustic/red
+	icon_base = "tile_red"
+
+/decl/flooring/tiling/rustic/yellow
+	icon_base = "tile_yellow"
+
+/decl/flooring/tiling/rustic/green
+	icon_base = "tile_green"
+
+/decl/flooring/tiling/rustic/blue
+	icon_base = "tile_blue"
+
+/decl/flooring/tiling/rustic/brown
+	icon_base = "tile_brown"
+
+/decl/flooring/tiling/rustic/purple
+	icon_base = "tile_purple"
+
 //==========MISC==============//
 
 /decl/flooring/wood
@@ -948,6 +983,36 @@ var/list/flooring_types
 
 /decl/flooring/rock/manmade/concrete
 	icon_base = "concrete6"
+
+/decl/flooring/rock/manmade/concrete/pavement
+	icon_base = "pavement"
+
+/decl/flooring/rock/manmade/concrete/pavement/edge
+	icon_base = "pavement_edge"
+
+/decl/flooring/rock/manmade/concrete/pavement/corner
+	icon_base = "pavement_corner"
+
+/decl/flooring/rock/manmade/concrete/pavement/brick
+	icon_base = "pavement_brick"
+
+/decl/flooring/rock/manmade/concrete/pavement/tile
+	icon_base = "pavement_tile"
+
+/decl/flooring/rock/manmade/concrete/pavement/stairs
+	icon_base = "pavement_stairs"
+
+/decl/flooring/rock/manmade/concrete/pavement/dirt
+	icon_base = "pavement_dirt"
+
+/decl/flooring/rock/manmade/concrete/tile
+	icon_base = "contile"
+
+/decl/flooring/rock/manmade/concrete/tile/edge
+	icon_base = "contileedge"
+
+/decl/flooring/rock/manmade/concrete/tile/corner
+	icon_base = "contilecorner"
 
 /decl/flooring/rock/manmade/asphalt
 	icon_base = "asphalt"

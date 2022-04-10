@@ -338,6 +338,48 @@
 	icon_state = "techmaint_cargo"
 	initial_flooring = /decl/flooring/tiling/techmaint_cargo
 
+/turf/simulated/floor/tiled/lino
+	name = "floor"
+	icon = 'icons/turf/flooring/tiles_maint.dmi'
+	icon_state = "lino"
+	initial_flooring = /decl/flooring/tiling/lino
+
+/turf/simulated/floor/tiled/lino/grey
+	icon_state = "lino2"
+	initial_flooring = /decl/flooring/tiling/lino/grey
+
+/turf/simulated/floor/tiled/rustic
+	name = "floor"
+	icon = 'icons/turf/flooring/tiles_rustic.dmi'
+	icon_state = "tile_neutral"
+	initial_flooring = /decl/flooring/tiling/rustic
+
+/turf/simulated/floor/tiled/rustic/red
+	icon_state = "tile_red"
+	initial_flooring = /decl/flooring/tiling/rustic/red
+
+/turf/simulated/floor/tiled/rustic/yellow
+	icon_state = "tile_yellow"
+	initial_flooring = /decl/flooring/tiling/rustic/yellow
+
+/turf/simulated/floor/tiled/rustic/green
+	icon_state = "tile_green"
+	initial_flooring = /decl/flooring/tiling/rustic/green
+
+/turf/simulated/floor/tiled/rustic/blue
+	icon_state = "tile_blue"
+	initial_flooring = /decl/flooring/tiling/rustic/blue
+
+/turf/simulated/floor/tiled/rustic/brown
+	icon_state = "tile_brown"
+	initial_flooring = /decl/flooring/tiling/rustic/brown
+
+/turf/simulated/floor/tiled/rustic/purple
+	icon_state = "tile_purple"
+	initial_flooring = /decl/flooring/tiling/rustic/purple
+
+
+
 /*Reinforced*/
 
 /turf/simulated/floor/reinforced
@@ -758,6 +800,57 @@
 	name = "concrete"
 	icon_state = "concrete6"
 	initial_flooring = /decl/flooring/rock/manmade/concrete
+
+/turf/simulated/floor/rock/manmade/concrete/pavement
+	name = "concrete"
+	icon_state = "pavement"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/edge
+	name = "concrete"
+	icon_state = "pavement_edge"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/edge
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/corner
+	name = "concrete"
+	icon_state = "pavement_corner"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/corner
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/brick
+	name = "concrete"
+	icon_state = "pavement_brick"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/brick
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/tile
+	name = "concrete"
+	icon_state = "pavement_tile"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/tile
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/stairs
+	name = "concrete"
+	icon_state = "pavement_stairs"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/stairs
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/dirt
+	name = "concrete"
+	icon_state = "pavement_dirt"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/dirt
+
+/turf/simulated/floor/rock/manmade/concrete/tile
+	name = "concrete"
+	icon_state = "contile"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/tile
+
+/turf/simulated/floor/rock/manmade/concrete/tile/edge
+	name = "concrete"
+	icon_state = "contileedge"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/tile/edge
+
+/turf/simulated/floor/rock/manmade/concrete/tile/corner
+	name = "concrete"
+	icon_state = "contilecorner"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/tile/corner
+
 
 /turf/simulated/floor/rock/manmade/asphalt
 	name = "asphalt"
