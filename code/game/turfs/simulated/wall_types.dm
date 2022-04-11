@@ -271,6 +271,16 @@
 /turf/simulated/wall/concrete_reinforced/New(var/newloc)
 	..(newloc, MATERIAL_SANDSTONE, MATERIAL_PLASTEEL) //3strong
 
+/turf/simulated/wall/concrete_old
+	icon_state = "concreteo"
+	icon_base_override = "concreteo"
+	base_color_override = "#FFFFFF"
+	reinf_color_override = "#FFFFFF"
+
+/turf/simulated/wall/concrete_old/New(var/newloc)
+	..(newloc, MATERIAL_SANDSTONE)
+
+
 /turf/simulated/wall/girder
 	icon_state = "girder"
 	icon_base_override = "girder"
@@ -286,6 +296,9 @@
 
 /turf/simulated/wall/rust_reinforced
 	icon_state = "r_rust"
+
+/turf/simulated/wall/tin
+	icon_state = "tin"
 
 
 

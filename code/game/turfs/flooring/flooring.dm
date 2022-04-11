@@ -1369,6 +1369,9 @@ var/list/flooring_types
 /decl/flooring/tiling/oldtile/unique/bar
 	icon_base = "bar"
 
+/decl/flooring/tiling/oldtile/unique/cafeteria
+	icon_base = "cafeteria"
+
 /decl/flooring/tiling/oldtile/unique/freezer
 	icon_base = "freezer"
 
