@@ -225,16 +225,19 @@
 	..(newloc,MATERIAL_SILVER,MATERIAL_GOLD)
 /turf/simulated/wall/sandstonediamond/New(var/newloc)
 	..(newloc,MATERIAL_SANDSTONE,MATERIAL_DIAMOND)
-/turf/simulated/wall/wood/New(var/newloc)
-	..(newloc,MATERIAL_WOOD)
 
 /turf/simulated/wall/wood
 	icon_state = "wood"
 	icon_base_override = "wood"
+	base_color_override = "#FFFFFF"
+	reinf_color_override = "#FFFFFF"
 
 /turf/simulated/wall/wood_old
 	icon_state = "oldwood"
 	icon_base_override = "oldwood"
+	icon_base_override = "wood"
+	base_color_override = "#FFFFFF"
+	reinf_color_override = "#FFFFFF"
 
 /turf/simulated/wall/wood_barrel
 	icon_state = "woodenwall"
@@ -248,6 +251,43 @@
 
 /turf/simulated/wall/wood_old/New(var/newloc)
 	..(newloc, MATERIAL_WOOD)
+
+/turf/simulated/wall/concrete
+	icon_state = "concrete"
+	icon_base_override = "concrete"
+	base_color_override = "#FFFFFF"
+	reinf_color_override = "#FFFFFF"
+
+/turf/simulated/wall/concrete/New(var/newloc)
+	..(newloc, MATERIAL_SANDSTONE)
+
+/turf/simulated/wall/concrete_reinforced
+	icon_state = "concreter"
+	icon_base_override = "concreter"
+	base_color_override = "#FFFFFF"
+	reinf_color_override = "#FFFFFF"
+	icon_base_reinf_override = null
+
+/turf/simulated/wall/concrete_reinforced/New(var/newloc)
+	..(newloc, MATERIAL_SANDSTONE, MATERIAL_PLASTEEL) //3strong
+
+/turf/simulated/wall/girder
+	icon_state = "girder"
+	icon_base_override = "girder"
+	base_color_override = "#FFFFFF"
+	reinf_color_override = "#FFFFFF"
+	icon_base_reinf_override = null
+
+/turf/simulated/wall/concrete/New(var/newloc)
+	..(newloc, MATERIAL_PLASTEEL)
+
+/turf/simulated/wall/rust
+	icon_state = "rust"
+
+/turf/simulated/wall/rust_reinforced
+	icon_state = "r_rust"
+
+
 
 // Kind of wondering if this is going to bite me in the butt.
 /turf/simulated/wall/voxshuttle/New(var/newloc)

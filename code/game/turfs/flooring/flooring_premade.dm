@@ -338,6 +338,1107 @@
 	icon_state = "techmaint_cargo"
 	initial_flooring = /decl/flooring/tiling/techmaint_cargo
 
+/turf/simulated/floor/tiled/lino
+	name = "floor"
+	icon = 'icons/turf/flooring/tiles_maint.dmi'
+	icon_state = "lino"
+	initial_flooring = /decl/flooring/tiling/lino
+
+/turf/simulated/floor/tiled/lino/grey
+	icon_state = "lino2"
+	initial_flooring = /decl/flooring/tiling/lino/grey
+
+/turf/simulated/floor/tiled/rustic
+	name = "floor"
+	icon = 'icons/turf/flooring/tiles_rustic.dmi'
+	icon_state = "tile_neutral"
+	initial_flooring = /decl/flooring/tiling/rustic
+
+/turf/simulated/floor/tiled/rustic/red
+	icon_state = "tile_red"
+	initial_flooring = /decl/flooring/tiling/rustic/red
+
+/turf/simulated/floor/tiled/rustic/yellow
+	icon_state = "tile_yellow"
+	initial_flooring = /decl/flooring/tiling/rustic/yellow
+
+/turf/simulated/floor/tiled/rustic/green
+	icon_state = "tile_green"
+	initial_flooring = /decl/flooring/tiling/rustic/green
+
+/turf/simulated/floor/tiled/rustic/blue
+	icon_state = "tile_blue"
+	initial_flooring = /decl/flooring/tiling/rustic/blue
+
+/turf/simulated/floor/tiled/rustic/brown
+	icon_state = "tile_brown"
+	initial_flooring = /decl/flooring/tiling/rustic/brown
+
+/turf/simulated/floor/tiled/rustic/purple
+	icon_state = "tile_purple"
+	initial_flooring = /decl/flooring/tiling/rustic/purple
+
+/turf/simulated/floor/tiled/rustic/metallic/bolts
+	icon_state = "bolts"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/bolts
+
+/turf/simulated/floor/tiled/rustic/metallic/grille
+	icon_state = "grille"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/grille
+
+/turf/simulated/floor/tiled/rustic/metallic/grooves
+	icon_state = "grooves"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/grooves
+
+/turf/simulated/floor/tiled/rustic/metallic/grid
+	icon_state = "grid"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/grid
+
+/turf/simulated/floor/tiled/rustic/metallic/vents
+	icon_state = "vents"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/vents
+
+/turf/simulated/floor/tiled/rustic/metallic/plates
+	icon_state = "plates"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/plates
+
+/turf/simulated/floor/tiled/rustic/metallic/duct
+	icon_state = "duct"
+	initial_flooring = /decl/flooring/tiling/rustic/metallic/duct
+
+/*Old Tile*/
+
+/turf/simulated/floor/tiled/oldtile
+	name = "floor"
+	icon = 'icons/turf/flooring/oldtile.dmi'
+
+/turf/simulated/floor/tiled/oldtile/plain/plain
+	icon_state = "floor"
+	initial_flooring = /decl/flooring/tiling/oldtile/plain
+
+/turf/simulated/floor/tiled/oldtile/plain/plain/dirty
+	icon_state = "floordirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/dirtyplain
+
+/turf/simulated/floor/tiled/oldtile/plain/plain/rusty
+	icon_state = "floorrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/rustyplain
+
+/turf/simulated/floor/tiled/oldtile/plain/plainsolid
+	icon_state = "floorsolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/plainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/plainsolid/dirty
+	icon_state = "floordirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/dirtyplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/plainsolid/rusty
+	icon_state = "floorrustysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/rustyplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/white
+	icon_state = "white"
+	initial_flooring = /decl/flooring/tiling/oldtile/white
+
+/turf/simulated/floor/tiled/oldtile/plain/white/dirty
+	icon_state = "whitedirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitedirtyplain
+
+/turf/simulated/floor/tiled/oldtile/plain/white/rusty
+	icon_state = "whiterusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiterustyplain
+
+/turf/simulated/floor/tiled/oldtile/plain/whitesolid
+	icon_state = "whitesolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/whitesolid/dirty
+	icon_state = "whitedirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitedirtyplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/whitesolid/rusty
+	icon_state = "whiterustysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiterustyplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/middark
+	icon_state = "dark"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark
+
+/turf/simulated/floor/tiled/oldtile/plain/middark/dirty
+	icon_state = "darkdirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/darkdirtyplain
+
+/turf/simulated/floor/tiled/oldtile/plain/middark/rusty
+	icon_state = "darkrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/darkrustyplain
+
+/turf/simulated/floor/tiled/oldtile/plain/middarksolid
+	icon_state = "darksolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/darkplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/middarksolid/dirty
+	icon_state = "darkdirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitedirtyplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/middarksolid/rusty
+	icon_state = "darkrustysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiterustyplainsolid
+
+/turf/simulated/floor/tiled/oldtile/plain/dark
+	icon_state = "verydark"
+	initial_flooring = /decl/flooring/tiling/oldtile/verydark
+
+/*colors*/
+
+/turf/simulated/floor/tiled/oldtile/red/redfull
+	icon_state = "redfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/redfull
+
+/turf/simulated/floor/tiled/oldtile/red/redfull/dirty
+	icon_state = "reddirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/redfull/dirty
+
+/turf/simulated/floor/tiled/oldtile/red/redfull/rusty
+	icon_state = "redrustyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/redfull/rusty
+
+/turf/simulated/floor/tiled/oldtile/red/redsolid
+	icon_state = "redsolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/redsolid
+
+/turf/simulated/floor/tiled/oldtile/red/redsolid/dirty
+	icon_state = "reddirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/redsolid/dirty
+
+/turf/simulated/floor/tiled/oldtile/red/redsolid/rusty
+	icon_state = "reddirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/redsolid/rusty
+
+/turf/simulated/floor/tiled/oldtile/red/red
+	icon_state = "red"
+	initial_flooring = /decl/flooring/tiling/oldtile/red
+
+/turf/simulated/floor/tiled/oldtile/red/red/dirty
+	icon_state = "reddirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/red/dirty
+
+/turf/simulated/floor/tiled/oldtile/red/red/rusty
+	icon_state = "redrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/red/rusty
+
+/turf/simulated/floor/tiled/oldtile/red/redcorner
+	icon_state = "redcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/redcorner
+
+/turf/simulated/floor/tiled/oldtile/red/redcorner/dirty
+	icon_state = "reddirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/redcorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/red/redcorner/rusty
+	icon_state = "redrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/redcorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/red/redchess
+	icon_state = "redchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/redchess
+
+/turf/simulated/floor/tiled/oldtile/red/redchess/dirty
+	icon_state = "reddirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/redchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/red/redchess/rusty
+	icon_state = "redrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/redchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/red/redchess2
+	icon_state = "redchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/redchess2
+
+/turf/simulated/floor/tiled/oldtile/red/redchess2/dirty
+	icon_state = "reddirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/redchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/red/redchess2/rusty
+	icon_state = "redrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/redchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/green/greenfull
+	icon_state = "greenfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenfull
+
+/turf/simulated/floor/tiled/oldtile/green/greenfull/dirty
+	icon_state = "greendirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenfull/dirty
+
+/turf/simulated/floor/tiled/oldtile/green/greenfull/rusty
+	icon_state = "greenrustyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenfull/rusty
+
+/turf/simulated/floor/tiled/oldtile/green/greensolid
+	icon_state = "greensolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/greensolid
+
+/turf/simulated/floor/tiled/oldtile/green/greensolid/dirty
+	icon_state = "greendirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/greensolid/dirty
+
+/turf/simulated/floor/tiled/oldtile/green/greensolid/rusty
+	icon_state = "greendirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/greensolid/rusty
+
+/turf/simulated/floor/tiled/oldtile/green/green
+	icon_state = "green"
+	initial_flooring = /decl/flooring/tiling/oldtile/green
+
+/turf/simulated/floor/tiled/oldtile/green/green/dirty
+	icon_state = "greendirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/green/dirty
+
+/turf/simulated/floor/tiled/oldtile/green/green/rusty
+	icon_state = "greenrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/green/rusty
+
+/turf/simulated/floor/tiled/oldtile/green/greencorner
+	icon_state = "greencorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/greencorner
+
+/turf/simulated/floor/tiled/oldtile/green/greencorner/dirty
+	icon_state = "greendirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/greencorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/green/greencorner/rusty
+	icon_state = "greenrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/greencorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/green/greenchess
+	icon_state = "greenchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenchess
+
+/turf/simulated/floor/tiled/oldtile/green/greenchess/dirty
+	icon_state = "greendirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/green/greenchess/rusty
+	icon_state = "greenrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/green/greenchess2
+	icon_state = "greenchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenchess2
+
+/turf/simulated/floor/tiled/oldtile/green/greenchess2/dirty
+	icon_state = "greendirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/green/greenchess2/rusty
+	icon_state = "greenrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/greenchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowfull
+	icon_state = "yellowfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowfull
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowfull/dirty
+	icon_state = "yellowdirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowfull/dirty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowfull/rusty
+	icon_state = "yellowrustyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowfull/rusty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowsolid
+	icon_state = "yellowsolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowsolid
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowsolid/dirty
+	icon_state = "yellowdirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowsolid/dirty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowsolid/rusty
+	icon_state = "yellowdirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowsolid/rusty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellow
+	icon_state = "yellow"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellow
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellow/dirty
+	icon_state = "yellowdirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellow/dirty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellow/rusty
+	icon_state = "yellowrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellow/rusty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowcorner
+	icon_state = "yellowcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowcorner
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowcorner/dirty
+	icon_state = "yellowdirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowcorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowcorner/rusty
+	icon_state = "yellowrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowcorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowchess
+	icon_state = "yellowchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowchess
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowchess/dirty
+	icon_state = "yellowdirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowchess/rusty
+	icon_state = "yellowrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowchess2
+	icon_state = "yellowchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowchess2
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowchess2/dirty
+	icon_state = "yellowdirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/yellow/yellowchess2/rusty
+	icon_state = "yellowrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/yellowchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluefull
+	icon_state = "bluefull"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluefull
+
+/turf/simulated/floor/tiled/oldtile/blue/bluefull/dirty
+	icon_state = "bluedirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluefull/dirty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluefull/rusty
+	icon_state = "bluerustyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluefull/rusty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluesolid
+	icon_state = "bluesolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluesolid
+
+/turf/simulated/floor/tiled/oldtile/blue/bluesolid/dirty
+	icon_state = "bluedirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluesolid/dirty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluesolid/rusty
+	icon_state = "bluedirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluesolid/rusty
+
+/turf/simulated/floor/tiled/oldtile/blue/blue
+	icon_state = "blue"
+	initial_flooring = /decl/flooring/tiling/oldtile/blue
+
+/turf/simulated/floor/tiled/oldtile/blue/blue/dirty
+	icon_state = "bluedirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/blue/dirty
+
+/turf/simulated/floor/tiled/oldtile/blue/blue/rusty
+	icon_state = "bluerusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/blue/rusty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluecorner
+	icon_state = "bluecorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluecorner
+
+/turf/simulated/floor/tiled/oldtile/blue/bluecorner/dirty
+	icon_state = "bluedirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluecorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluecorner/rusty
+	icon_state = "bluerustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluecorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluechess
+	icon_state = "bluechess"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluechess
+
+/turf/simulated/floor/tiled/oldtile/blue/bluechess/dirty
+	icon_state = "bluedirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluechess/dirty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluechess/rusty
+	icon_state = "bluerustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluechess/rusty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluechess2
+	icon_state = "bluechess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluechess2
+
+/turf/simulated/floor/tiled/oldtile/blue/bluechess2/dirty
+	icon_state = "bluedirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluechess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/blue/bluechess2/rusty
+	icon_state = "bluerustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/bluechess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplefull
+	icon_state = "purplefull"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplefull
+
+/turf/simulated/floor/tiled/oldtile/purple/purplefull/dirty
+	icon_state = "purpledirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplefull/dirty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplefull/rusty
+	icon_state = "purplerustyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplefull/rusty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplesolid
+	icon_state = "purplesolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplesolid
+
+/turf/simulated/floor/tiled/oldtile/purple/purplesolid/dirty
+	icon_state = "purpledirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplesolid/dirty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplesolid/rusty
+	icon_state = "purpledirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplesolid/rusty
+
+/turf/simulated/floor/tiled/oldtile/purple/purple
+	icon_state = "purple"
+	initial_flooring = /decl/flooring/tiling/oldtile/purple
+
+/turf/simulated/floor/tiled/oldtile/purple/purple/dirty
+	icon_state = "purpledirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/purple/dirty
+
+/turf/simulated/floor/tiled/oldtile/purple/purple/rusty
+	icon_state = "purplerusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/purple/rusty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplecorner
+	icon_state = "purplecorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplecorner
+
+/turf/simulated/floor/tiled/oldtile/purple/purplecorner/dirty
+	icon_state = "purpledirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplecorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplecorner/rusty
+	icon_state = "purplerustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplecorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplechess
+	icon_state = "purplechess"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplechess
+
+/turf/simulated/floor/tiled/oldtile/purple/purplechess/dirty
+	icon_state = "purpledirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplechess/dirty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplechess/rusty
+	icon_state = "purplerustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplechess/rusty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplechess2
+	icon_state = "purplechess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplechess2
+
+/turf/simulated/floor/tiled/oldtile/purple/purplechess2/dirty
+	icon_state = "purpledirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplechess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/purple/purplechess2/rusty
+	icon_state = "purplerustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/purplechess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralfull
+	icon_state = "neutralfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralfull
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralfull/dirty
+	icon_state = "neutraldirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralfull/dirty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralfull/rusty
+	icon_state = "neutralrustyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralfull/rusty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralsolid
+	icon_state = "neutralsolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralsolid
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralsolid/dirty
+	icon_state = "neutraldirtysolid"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralsolid/dirty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralsolid/rusty
+	icon_state = "neutraldirtyfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralsolid/rusty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutral
+	icon_state = "neutral"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutral
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutral/dirty
+	icon_state = "neutraldirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutral/dirty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutral/rusty
+	icon_state = "neutralrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutral/rusty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralcorner
+	icon_state = "neutralcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralcorner
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralcorner/dirty
+	icon_state = "neutraldirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralcorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralcorner/rusty
+	icon_state = "neutralrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralcorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralchess
+	icon_state = "neutralchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralchess
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralchess/dirty
+	icon_state = "neutraldirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralchess/rusty
+	icon_state = "neutralrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralchess2
+	icon_state = "neutralchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralchess2
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralchess2/dirty
+	icon_state = "neutraldirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/neutral/neutralchess2/rusty
+	icon_state = "neutralrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/neutralchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whitered
+	icon_state = "whitered"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitered
+
+/turf/simulated/floor/tiled/oldtile/whitered/whitered/dirty
+	icon_state = "whitereddirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitered/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whitered/rusty
+	icon_state = "whiteredrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitered/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredcorner
+	icon_state = "whiteredcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredcorner
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredcorner/dirty
+	icon_state = "whitereddirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredcorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredcorner/rusty
+	icon_state = "whiteredrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredcorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess
+	icon_state = "whiteredchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredchess
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess/dirty
+	icon_state = "whitereddirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess/rusty
+	icon_state = "whiteredrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess2
+	icon_state = "whiteredchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredchess2
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess2/dirty
+	icon_state = "whitereddirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess2/rusty
+	icon_state = "whiteredrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteredchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreen
+	icon_state = "whitegreen"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreen
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreen/dirty
+	icon_state = "whitegreendirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreen/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreen/rusty
+	icon_state = "whitegreenrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreen/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreencorner
+	icon_state = "whitegreencorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreencorner
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreencorner/dirty
+	icon_state = "whitegreendirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreencorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreencorner/rusty
+	icon_state = "whitegreenrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreencorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess
+	icon_state = "whitegreenchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreenchess
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess/dirty
+	icon_state = "whitegreendirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreenchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess/rusty
+	icon_state = "whitegreenrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreenchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess2
+	icon_state = "whitegreenchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreenchess2
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess2/dirty
+	icon_state = "whitegreendirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreenchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess2/rusty
+	icon_state = "whitegreenrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitegreenchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellow
+	icon_state = "whiteyellow"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellow
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellow/dirty
+	icon_state = "whiteyellowdirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellow/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellow/rusty
+	icon_state = "whiteyellowrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellow/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowcorner
+	icon_state = "whiteyellowcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowcorner
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowcorner/dirty
+	icon_state = "whiteyellowdirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowcorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowcorner/rusty
+	icon_state = "whiteyellowrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowcorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess
+	icon_state = "whiteyellowchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowchess
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess/dirty
+	icon_state = "whiteyellowdirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess/rusty
+	icon_state = "whiteyellowrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess2
+	icon_state = "whiteyellowchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowchess2
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess2/dirty
+	icon_state = "whiteyellowdirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess2/rusty
+	icon_state = "whiteyellowrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteyellowchess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whiteblue
+	icon_state = "whiteblue"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteblue
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whiteblue/dirty
+	icon_state = "whitebluedirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteblue/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whiteblue/rusty
+	icon_state = "whitebluerusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteblue/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluecorner
+	icon_state = "whitebluecorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluecorner
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluecorner/dirty
+	icon_state = "whitebluedirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluecorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluecorner/rusty
+	icon_state = "whitebluerustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluecorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess
+	icon_state = "whitebluechess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluechess
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess/dirty
+	icon_state = "whitebluedirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluechess/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess/rusty
+	icon_state = "whitebluerustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluechess/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess2
+	icon_state = "whitebluechess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluechess2
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess2/dirty
+	icon_state = "whitebluedirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluechess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess2/rusty
+	icon_state = "whitebluerustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitebluechess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurple
+	icon_state = "whitepurple"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurple
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurple/dirty
+	icon_state = "whitepurpledirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurple/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurple/rusty
+	icon_state = "whitepurplerusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurple/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplecorner
+	icon_state = "whitepurplecorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplecorner
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplecorner/dirty
+	icon_state = "whitepurpledirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplecorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplecorner/rusty
+	icon_state = "whitepurplerustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplecorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess
+	icon_state = "whitepurplechess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplechess
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess/dirty
+	icon_state = "whitepurpledirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplechess/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess/rusty
+	icon_state = "whitepurplerustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplechess/rusty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess2
+	icon_state = "whitepurplechess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplechess2
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess2/dirty
+	icon_state = "whitepurpledirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplechess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess2/rusty
+	icon_state = "whitepurplerustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whitepurplechess2/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutral
+	icon_state = "whiteneutral"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutral
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutral/dirty
+	icon_state = "whiteneutraldirty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutral/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutral/rusty
+	icon_state = "whiteneutralrusty"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutral/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralcorner
+	icon_state = "whiteneutralcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralcorner
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralcorner/dirty
+	icon_state = "whiteneutraldirtycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralcorner/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralcorner/rusty
+	icon_state = "whiteneutralrustycorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralcorner/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess
+	icon_state = "whiteneutralchess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralchess
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess/dirty
+	icon_state = "whiteneutraldirtychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralchess/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess/rusty
+	icon_state = "whiteneutralrustychess"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralchess/rusty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess2
+	icon_state = "whiteneutralchess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralchess2
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess2/dirty
+	icon_state = "whiteneutraldirtychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralchess2/dirty
+
+/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess2/rusty
+	icon_state = "whiteneutralrustychess2"
+	initial_flooring = /decl/flooring/tiling/oldtile/whiteneutralchess2/rusty
+
+
+/turf/simulated/floor/tiled/oldtile/dark/darkred
+	icon_state = "darkred"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkred
+
+/turf/simulated/floor/tiled/oldtile/dark/darkredcorner
+	icon_state = "darkredcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkredcorner
+
+/turf/simulated/floor/tiled/oldtile/dark/darkgreen
+	icon_state = "darkgreen"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkgreen
+
+/turf/simulated/floor/tiled/oldtile/dark/darkgreencorner
+	icon_state = "darkgreencorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkgreencorner
+
+/turf/simulated/floor/tiled/oldtile/dark/darkyellow
+	icon_state = "darkyellow"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkyellow
+
+/turf/simulated/floor/tiled/oldtile/dark/darkyellowcorner
+	icon_state = "darkyellowcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkyellowcorner
+
+/turf/simulated/floor/tiled/oldtile/dark/darkblue
+	icon_state = "darkblue"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkblue
+
+/turf/simulated/floor/tiled/oldtile/dark/darkbluecorner
+	icon_state = "darkbluecorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkbluecorner
+
+/turf/simulated/floor/tiled/oldtile/dark/darkpurple
+	icon_state = "darkpurple"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkpurple
+
+/turf/simulated/floor/tiled/oldtile/dark/darkpurplecorner
+	icon_state = "darkpurplecorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkpurplecorner
+
+/turf/simulated/floor/tiled/oldtile/dark/darkneutral
+	icon_state = "darkneutral"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkneutral
+
+/turf/simulated/floor/tiled/oldtile/dark/darkneutralcorner
+	icon_state = "darkneutralcorner"
+	initial_flooring = /decl/flooring/tiling/oldtile/dark/darkneutralcorner
+
+
+
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/redyellow
+	icon_state = "redyellow"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/redyellow
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/redyellowfull
+	icon_state = "redyellowfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/redyellowfull
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/redblue
+	icon_state = "redblue"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/redblue
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/redbluefull
+	icon_state = "redbluefull"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/redbluefull
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/redgreen
+	icon_state = "redgreen"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/redgreen
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/redgreenfull
+	icon_state = "redgreenfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/redgreenfull
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/greenyellow
+	icon_state = "greenyellow"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/greenyellow
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/greenyellowfull
+	icon_state = "greenyellowfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/greenyellowfull
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/greenblue
+	icon_state = "greenblue"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/greenblue
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/greenbluefull
+	icon_state = "greenbluefull"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/greenbluefull
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/blueyellow
+	icon_state = "blueyellow"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/blueyellow
+
+/turf/simulated/floor/tiled/oldtile/unique/checker/blueyellowfull
+	icon_state = "blueyellowfull"
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/checker/blueyellowfull
+
+
+
+
+
+/*unique*/
+
+/turf/simulated/floor/tiled/oldtile/unique/bar
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/bar
+	icon_state = "bar"
+
+/turf/simulated/floor/tiled/oldtile/unique/freezer
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/freezer
+	icon_state = "freezer"
+
+/turf/simulated/floor/tiled/oldtile/unique/showroom
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/showroom
+	icon_state = "showroom"
+
+/turf/simulated/floor/tiled/oldtile/unique/hydro
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/hydro
+	icon_state = "hydro"
+
+/turf/simulated/floor/tiled/oldtile/unique/vault
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/vault
+	icon_state = "vault"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Reinforced*/
 
 /turf/simulated/floor/reinforced
@@ -758,6 +1859,57 @@
 	name = "concrete"
 	icon_state = "concrete6"
 	initial_flooring = /decl/flooring/rock/manmade/concrete
+
+/turf/simulated/floor/rock/manmade/concrete/pavement
+	name = "concrete"
+	icon_state = "pavement"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/edge
+	name = "concrete"
+	icon_state = "pavement_edge"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/edge
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/corner
+	name = "concrete"
+	icon_state = "pavement_corner"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/corner
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/brick
+	name = "concrete"
+	icon_state = "pavement_brick"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/brick
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/tile
+	name = "concrete"
+	icon_state = "pavement_tile"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/tile
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/stairs
+	name = "concrete"
+	icon_state = "pavement_stairs"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/stairs
+
+/turf/simulated/floor/rock/manmade/concrete/pavement/dirt
+	name = "concrete"
+	icon_state = "pavement_dirt"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/pavement/dirt
+
+/turf/simulated/floor/rock/manmade/concrete/tile
+	name = "concrete"
+	icon_state = "contile"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/tile
+
+/turf/simulated/floor/rock/manmade/concrete/tile/edge
+	name = "concrete"
+	icon_state = "contileedge"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/tile/edge
+
+/turf/simulated/floor/rock/manmade/concrete/tile/corner
+	name = "concrete"
+	icon_state = "contilecorner"
+	initial_flooring = /decl/flooring/rock/manmade/concrete/tile/corner
+
 
 /turf/simulated/floor/rock/manmade/asphalt
 	name = "asphalt"

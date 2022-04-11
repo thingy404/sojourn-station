@@ -565,3 +565,100 @@ obj/structure/salvageable/bliss/Initialize()
 		/obj/item/computer_hardware/network_card/advanced = 40,
 		/obj/random/lathe_disk/advanced/onestar = 15
 	)
+
+/obj/structure/salvageable/junk
+	icon = 'icons/obj/junkobj.dmi'
+	salvageable_parts = list(
+		/obj/item/scrap_lump = 50,
+		/obj/item/stack/cable_coil{amount = 5} = 50,
+		/obj/random/junk = 30
+	)
+
+/obj/structure/salvageable/dismantle()
+	new /obj/effect/decal/cleanable/dirt (src.loc)
+	new /obj/item/scrap_lump (src.loc) //your empire of dirt
+	for(var/path in salvageable_parts)
+		if(prob(salvageable_parts[path]))
+			new path (loc)
+	return
+
+/obj/structure/salvageable/junk/tv
+	name = "rusted television"
+	icon_state = "tv"
+
+/obj/structure/salvageable/junk/microwave
+	name = "rusted microwave"
+	icon_state = "microwave"
+
+/obj/structure/salvageable/junk/workbench
+	name = "rusted workbench"
+	icon_state = "workbench"
+
+/obj/structure/salvageable/junk/jukebox
+	name = "rusted jukebox"
+	icon_state = "jukebox"
+
+/obj/structure/salvageable/junk/telescreen
+	name = "rusted telescreen"
+	icon_state = "telescreen"
+
+/obj/structure/salvageable/junk/dresser
+	name = "rusted dresser"
+	icon_state = "dresser"
+	salvageable_parts = list(
+		/obj/item/scrap_lump = 30,
+		/obj/random/junk = 50,
+		/obj/item/clothing/under/costume/halloween/ragged = 50
+	)
+
+/obj/structure/salvageable/junk/cabinet
+	name = "rusted cabinet"
+	icon_state = "cabinet"
+	salvageable_parts = list(
+		/obj/item/scrap_lump = 30,
+		/obj/random/junk = 50
+	)
+
+/obj/structure/salvageable/junk/locker
+	name = "rusted locker"
+	icon_state = "locker"
+	salvageable_parts = list(
+		/obj/item/scrap_lump = 30,
+		/obj/random/junk = 50
+	)
+
+/obj/structure/salvageable/junk/nonsalvageable
+	desc = "Broken beyond repair, and probably only worth scrap value."
+	density = 0
+
+/obj/structure/salvageable/attackby(obj/item/I, mob/user)
+	return
+
+/obj/structure/salvageable/junk/nonsalvageable/sink
+	name = "rusted sink"
+	icon_state = "sink"
+
+/obj/structure/salvageable/junk/nonsalvageable/shower
+	name = "rusted shower"
+	icon_state = "shower"
+
+/obj/structure/salvageable/junk/nonsalvageable/toilet
+	name = "rusted toilet"
+	icon_state = "toilet"
+
+/obj/structure/salvageable/junk/nonsalvageable/urinal
+	name = "rusted urinal"
+	icon_state = "urinal"
+
+/obj/structure/salvageable/junk/nonsalvageable/bed
+	name = "rusted bed"
+	icon_state = "bed"
+
+/obj/structure/salvageable/junk/nonsalvageable/table
+	name = "broken table"
+	icon_state = "table"
+	density = 1
+
+/obj/structure/salvageable/junk/nonsalvageable/mirror
+	name = "broken mirror"
+	icon_state = "mirror"

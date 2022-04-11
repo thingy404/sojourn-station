@@ -175,39 +175,190 @@
 "ds" = (/obj/structure/table/rack/diesel/grand/middle,/turf/simulated/floor/light,/area/space)
 "dt" = (/obj/structure/table/rack/diesel/grand{dir = 10},/turf/simulated/floor/light,/area/space)
 "du" = (/obj/structure/table/rack/diesel/grand{dir = 6},/turf/simulated/floor/light,/area/space)
+"dv" = (/turf/simulated/wall/concrete,/area/space)
+"dw" = (/turf/simulated/wall/concrete_reinforced,/area/space)
+"dx" = (/turf/space,/turf/simulated/wall/girder,/area/space)
+"dy" = (/turf/simulated/wall/wood,/area/space)
+"dz" = (/turf/simulated/wall/wood_old,/area/space)
+"dA" = (/turf/simulated/floor/rock/manmade/concrete/tile,/area/space)
+"dB" = (/turf/simulated/floor/rock/manmade/concrete/tile/corner,/area/space)
+"dC" = (/turf/simulated/floor/rock/manmade/concrete/tile/edge,/area/space)
+"dD" = (/turf/simulated/floor/tiled/lino,/area/space)
+"dE" = (/turf/simulated/floor/tiled/lino/grey,/area/space)
+"dF" = (/turf/simulated/floor/tiled/rustic,/area/space)
+"dG" = (/turf/simulated/floor/tiled/rustic/red,/area/space)
+"dH" = (/turf/simulated/floor/tiled/rustic/green,/area/space)
+"dI" = (/turf/simulated/floor/tiled/rustic/yellow,/area/space)
+"dJ" = (/turf/simulated/floor/tiled/rustic/blue,/area/space)
+"dK" = (/turf/simulated/floor/tiled/rustic/purple,/area/space)
+"dL" = (/turf/simulated/floor/tiled/rustic/brown,/area/space)
+"dM" = (/turf/simulated/wall/r_wall,/area/space)
+"dN" = (/turf/simulated/floor/carpet/gaycarpet,/area/space)
+"dO" = (/turf/simulated/floor/carpet,/area/space)
+"dP" = (/turf/simulated/floor/carpet/turcarpet,/area/space)
+"dQ" = (/turf/simulated/floor/carpet/purcarpet,/area/space)
+"dR" = (/turf/simulated/floor/carpet/bcarpet,/area/space)
+"dS" = (/turf/simulated/floor/carpet/sblucarpet,/area/space)
+"dT" = (/turf/simulated/floor/carpet/oracarpet,/area/space)
+"dU" = (/obj/structure/salvageable/junk/microwave,/turf/simulated/floor/light,/area/space)
+"dV" = (/obj/structure/salvageable/junk/telescreen,/turf/simulated/floor/light,/area/space)
+"dW" = (/obj/structure/salvageable/junk/tv,/turf/simulated/floor/light,/area/space)
+"dX" = (/obj/structure/salvageable/junk/workbench,/turf/simulated/floor/light,/area/space)
+"dY" = (/obj/structure/salvageable/junk/cabinet,/turf/simulated/floor/light,/area/space)
+"dZ" = (/obj/structure/salvageable/junk/dresser,/turf/simulated/floor/light,/area/space)
+"ea" = (/obj/structure/salvageable/junk/jukebox,/turf/simulated/floor/light,/area/space)
+"eb" = (/obj/structure/salvageable/junk/locker,/turf/simulated/floor/light,/area/space)
+"ec" = (/obj/structure/salvageable/junk/nonsalvageable/bed,/turf/simulated/floor/light,/area/space)
+"ed" = (/obj/structure/salvageable/junk/nonsalvageable/shower,/turf/simulated/floor/light,/area/space)
+"ee" = (/obj/structure/salvageable/junk/nonsalvageable/table,/turf/simulated/floor/light,/area/space)
+"ef" = (/obj/structure/salvageable/junk/nonsalvageable/urinal,/turf/simulated/floor/light,/area/space)
+"eg" = (/obj/structure/salvageable/junk/nonsalvageable/mirror,/turf/simulated/floor/light,/area/space)
+"eh" = (/obj/structure/salvageable/junk/nonsalvageable/sink,/turf/simulated/floor/light,/area/space)
+"ei" = (/obj/structure/salvageable/junk/nonsalvageable/toilet,/turf/simulated/floor/light,/area/space)
+"ej" = (/obj/item/paper{name = "CATWALK RESKIN - NEEDS TURF UNDERNEATH"},/turf/space,/area/space)
+"ek" = (/obj/structure/catwalk/rustic/diamond,/turf/space,/area/space)
+"el" = (/obj/structure/catwalk/rustic/grid,/turf/space,/area/space)
+"em" = (/obj/item/paper{name = "can be salvaged for potential scrap + junk and dismantled"},/turf/simulated/floor/light,/area/space)
+"en" = (/obj/item/paper{name = "not salvageable but can still be dismantled for parts"},/turf/simulated/floor/light,/area/space)
+"eo" = (/obj/item/paper{name = "check turf folder for rusty and dirty variants"},/turf/space,/area/space)
+"ep" = (/turf/simulated/floor/tiled/oldtile/red/red,/area/space)
+"eq" = (/turf/simulated/floor/tiled/oldtile/red/redchess,/area/space)
+"er" = (/turf/simulated/floor/tiled/oldtile/red/redchess2,/area/space)
+"es" = (/turf/simulated/floor/tiled/oldtile/red/redcorner,/area/space)
+"et" = (/turf/simulated/floor/tiled/oldtile/red/redfull,/area/space)
+"eu" = (/turf/simulated/floor/tiled/oldtile/red/redsolid,/area/space)
+"ev" = (/turf/simulated/floor/tiled/oldtile/green/green,/area/space)
+"ew" = (/turf/simulated/floor/tiled/oldtile/green/greenchess,/area/space)
+"ex" = (/turf/simulated/floor/tiled/oldtile/green/greenchess2,/area/space)
+"ey" = (/turf/simulated/floor/tiled/oldtile/green/greencorner,/area/space)
+"ez" = (/turf/simulated/floor/tiled/oldtile/green/greenfull,/area/space)
+"eA" = (/turf/simulated/floor/tiled/oldtile/green/greensolid,/area/space)
+"eB" = (/turf/simulated/floor/tiled/oldtile/yellow/yellow,/area/space)
+"eC" = (/turf/simulated/floor/tiled/oldtile/yellow/yellowchess,/area/space)
+"eD" = (/turf/simulated/floor/tiled/oldtile/yellow/yellowchess2,/area/space)
+"eE" = (/turf/simulated/floor/tiled/oldtile/yellow/yellowcorner,/area/space)
+"eF" = (/turf/simulated/floor/tiled/oldtile/yellow/yellowfull,/area/space)
+"eG" = (/turf/simulated/floor/tiled/oldtile/yellow/yellowsolid,/area/space)
+"eH" = (/turf/simulated/floor/tiled/oldtile/blue/blue,/area/space)
+"eI" = (/turf/simulated/floor/tiled/oldtile/blue/bluechess,/area/space)
+"eJ" = (/turf/simulated/floor/tiled/oldtile/blue/bluechess2,/area/space)
+"eK" = (/turf/simulated/floor/tiled/oldtile/blue/bluecorner,/area/space)
+"eL" = (/turf/simulated/floor/tiled/oldtile/blue/bluefull,/area/space)
+"eM" = (/turf/simulated/floor/tiled/oldtile/blue/bluesolid,/area/space)
+"eN" = (/turf/simulated/floor/tiled/oldtile/purple/purple,/area/space)
+"eO" = (/turf/simulated/floor/tiled/oldtile/purple/purplechess,/area/space)
+"eP" = (/turf/simulated/floor/tiled/oldtile/purple/purplechess2,/area/space)
+"eQ" = (/turf/simulated/floor/tiled/oldtile/purple/purplecorner,/area/space)
+"eR" = (/turf/simulated/floor/tiled/oldtile/purple/purplefull,/area/space)
+"eS" = (/turf/simulated/floor/tiled/oldtile/purple/purplesolid,/area/space)
+"eT" = (/turf/simulated/floor/tiled/oldtile/neutral/neutral,/area/space)
+"eU" = (/turf/simulated/floor/tiled/oldtile/neutral/neutralchess,/area/space)
+"eV" = (/turf/simulated/floor/tiled/oldtile/neutral/neutralchess2,/area/space)
+"eW" = (/turf/simulated/floor/tiled/oldtile/neutral/neutralcorner,/area/space)
+"eX" = (/turf/simulated/floor/tiled/oldtile/neutral/neutralfull,/area/space)
+"eY" = (/turf/simulated/floor/tiled/oldtile/neutral/neutralsolid,/area/space)
+"eZ" = (/turf/simulated/floor/tiled/oldtile/whitered/whitered,/area/space)
+"fa" = (/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess,/area/space)
+"fb" = (/turf/simulated/floor/tiled/oldtile/whitered/whiteredchess2,/area/space)
+"fc" = (/turf/simulated/floor/tiled/oldtile/whitered/whiteredcorner,/area/space)
+"fd" = (/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreen,/area/space)
+"fe" = (/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess,/area/space)
+"ff" = (/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreenchess2,/area/space)
+"fg" = (/turf/simulated/floor/tiled/oldtile/whitegreen/whitegreencorner,/area/space)
+"fh" = (/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellow,/area/space)
+"fi" = (/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess,/area/space)
+"fj" = (/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowchess2,/area/space)
+"fk" = (/turf/simulated/floor/tiled/oldtile/whiteyellow/whiteyellowcorner,/area/space)
+"fl" = (/turf/simulated/floor/tiled/oldtile/whiteblue/whiteblue,/area/space)
+"fm" = (/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess,/area/space)
+"fn" = (/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluechess2,/area/space)
+"fo" = (/turf/simulated/floor/tiled/oldtile/whiteblue/whitebluecorner,/area/space)
+"fp" = (/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurple,/area/space)
+"fq" = (/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess,/area/space)
+"fr" = (/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplechess2,/area/space)
+"fs" = (/turf/simulated/floor/tiled/oldtile/whitepurple/whitepurplecorner,/area/space)
+"ft" = (/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutral,/area/space)
+"fu" = (/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess,/area/space)
+"fv" = (/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralchess2,/area/space)
+"fw" = (/turf/simulated/floor/tiled/oldtile/whiteneutral/whiteneutralcorner,/area/space)
+"fx" = (/turf/simulated/floor/tiled/oldtile/unique/bar,/area/space)
+"fy" = (/turf/simulated/floor/tiled/oldtile/unique/freezer,/area/space)
+"fz" = (/turf/simulated/floor/tiled/oldtile/unique/hydro,/area/space)
+"fA" = (/turf/simulated/floor/tiled/oldtile/unique/showroom,/area/space)
+"fB" = (/turf/simulated/floor/tiled/oldtile/unique/vault,/area/space)
+"fC" = (/turf/simulated/floor/tiled/oldtile/plain/plain,/area/space)
+"fD" = (/turf/simulated/floor/tiled/oldtile/plain/plainsolid,/area/space)
+"fE" = (/turf/simulated/floor/tiled/oldtile/plain/white,/area/space)
+"fF" = (/turf/simulated/floor/tiled/oldtile/plain/whitesolid,/area/space)
+"fG" = (/turf/simulated/floor/tiled/oldtile/plain/dark,/area/space)
+"fH" = (/turf/simulated/floor/tiled/oldtile/plain/middark,/area/space)
+"fI" = (/turf/simulated/floor/tiled/oldtile/dark/darkred,/area/space)
+"fJ" = (/turf/simulated/floor/tiled/oldtile/dark/darkredcorner,/area/space)
+"fK" = (/turf/simulated/floor/tiled/oldtile/dark/darkgreen,/area/space)
+"fL" = (/turf/simulated/floor/tiled/oldtile/dark/darkgreencorner,/area/space)
+"fM" = (/turf/simulated/floor/tiled/oldtile/dark/darkyellow,/area/space)
+"fN" = (/turf/simulated/floor/tiled/oldtile/dark/darkyellowcorner,/area/space)
+"fO" = (/turf/simulated/floor/tiled/oldtile/dark/darkblue,/area/space)
+"fP" = (/turf/simulated/floor/tiled/oldtile/dark/darkbluecorner,/area/space)
+"fQ" = (/turf/simulated/floor/tiled/oldtile/dark/darkpurple,/area/space)
+"fR" = (/turf/simulated/floor/tiled/oldtile/dark/darkpurplecorner,/area/space)
+"fS" = (/turf/simulated/floor/tiled/oldtile/plain/middarksolid,/area/space)
+"fT" = (/turf/simulated/floor/tiled/oldtile/dark/darkneutral,/area/space)
+"fU" = (/turf/simulated/floor/tiled/oldtile/dark/darkneutralcorner,/area/space)
+"fV" = (/turf/simulated/wall/rust,/area/space)
+"fW" = (/turf/simulated/wall/rust_reinforced,/area/space)
+"fX" = (/turf/simulated/floor/tiled/rustic/metallic/bolts,/area/space)
+"fY" = (/turf/simulated/floor/tiled/oldtile/unique/checker/blueyellow,/area/space)
+"fZ" = (/turf/simulated/floor/tiled/oldtile/unique/checker/blueyellowfull,/area/space)
+"ga" = (/turf/simulated/floor/tiled/oldtile/unique/checker/greenblue,/area/space)
+"gb" = (/turf/simulated/floor/tiled/oldtile/unique/checker/greenbluefull,/area/space)
+"gc" = (/turf/simulated/floor/tiled/oldtile/unique/checker/greenyellow,/area/space)
+"gd" = (/turf/simulated/floor/tiled/oldtile/unique/checker/greenyellowfull,/area/space)
+"ge" = (/turf/simulated/floor/tiled/oldtile/unique/checker/redblue,/area/space)
+"gf" = (/turf/simulated/floor/tiled/oldtile/unique/checker/redbluefull,/area/space)
+"gg" = (/turf/simulated/floor/tiled/oldtile/unique/checker/redgreen,/area/space)
+"gh" = (/turf/simulated/floor/tiled/oldtile/unique/checker/redgreenfull,/area/space)
+"gi" = (/turf/simulated/floor/tiled/oldtile/unique/checker/redyellow,/area/space)
+"gj" = (/turf/simulated/floor/tiled/oldtile/unique/checker/redyellowfull,/area/space)
+"gk" = (/turf/simulated/floor/tiled/rustic/metallic/duct,/area/space)
+"gl" = (/turf/simulated/floor/tiled/rustic/metallic/grooves,/area/space)
+"gm" = (/turf/simulated/floor/tiled/rustic/metallic/vents,/area/space)
+"gn" = (/turf/simulated/floor/tiled/rustic/metallic/grid,/area/space)
+"go" = (/turf/simulated/floor/tiled/rustic/metallic/grille,/area/space)
+"gp" = (/turf/simulated/floor/tiled/rustic/metallic/plates,/area/space)
 
 (1,1,1) = {"
 bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
 bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaahaianaLckcbcccdceaacrcsctaaaaaaaacGcGcGcIcIcIbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaacvaacwcqaaaaaacGcGcGcIcIcIbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebecocFcacpaaaaaaaaaaaaaaczcAcBcucxcyaacGcGcGcIcIcIbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacHcHcHcKcKcKbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaSbZchcnbYcCcDcEbXaaaadmdpdqaaaaaacHcHcHcKcKcKbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaadrdsdlaaaaaacHcHcHcKcKcKbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaadtdnduaaaaaacJcJcJbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaclcmaaaadoaaaaaaaaaaaaaaaaaaaaaaaacJcJcJbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaacfcgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacJcJcJbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaacicjaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaacLcMcNaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaacOcPcQaaaacRaaaacSaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaacTcUcVcWcXcYaacZdadbaadcdddeaadfdgbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaadhdidjdkaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
-bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebecGcGcGcIcIcIbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+beaaahaianaLckcbcccdceaacrcsctaaaaaaaabebecGcGcGcIcIcIbedvdvdvbedwdwdwbedxdxdxbedydydybedzdzdzbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaacvaacwcqaaaaaabebecGcGcGcIcIcIbedvbedvbedwbedwbedxbedxbedybedybedzbedzbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+becocFcacpaaaaaaaaaaaaaaczcAcBcucxcyaabebecHcHcHcKcKcKbedvdvdvbedwdwdwbedxdxdxbedydydybedzdzdzbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebecHcHcHcKcKcKbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+beaaaSbZchcnbYcCcDcEbXaaaadmdpdqaaaaaabebecHcHcHcKcKcKbeabababbedMdMdMbefVfVfVbefWfWfWbebebebebefCfCfCfDfDfDfEfEfEfFfFfFfHfHfHfSfSfSfGfGfGbefxfxfxfyfyfyfzfzfzfAfAfAfBfBfBbebebebebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaadrdsdlaaaaaabebebebebebebebebeabbeabbedMbedMbefVbefVbefWbefWbebebebebefCfCfCfDfDfDfEfEfEfFfFfFfHfHfHfSfSfSfGfGfGbefxfxfxfyfyfyfzfzfzfAfAfAfBfBfBbebebebebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaadtdnduaaaaaabebebebebebebebebeabababbedMdMdMbefVfVfVbefWfWfWbebebebebefCfCfCfDfDfDfEfEfEfFfFfFfHfHfHfSfSfSfGfGfGbefxfxfxfyfyfyfzfzfzfAfAfAfBfBfBbebebebebebebebebebebebebebebe
+beaaclcmaaaadoaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebebebebebebebebebebebebebebebebebebebebeeobebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+beaacfcgaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebecJcJcJdAdAdAbedFdFdFdGdGdGbedNdNdNdOdOdObebeepepepeqeqeqererereseseseteteteueueueZeZeZfafafafbfbfbfcfcfcfIfIfIfJfJfJbebebefYfYfYfZfZfZbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebecJcJcJdAdAdAbedFdFdFdGdGdGbedNdNdNdOdOdObebeepepepeqeqeqererereseseseteteteueueueZeZeZfafafafbfbfbfcfcfcfIfIfIfJfJfJbebebefYfYfYfZfZfZbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebecJcJcJdAdAdAbedFdFdFdGdGdGbedNdNdNdOdOdObebeepepepeqeqeqererereseseseteteteueueueZeZeZfafafafbfbfbfcfcfcfIfIfIfJfJfJbebebefYfYfYfZfZfZbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaacicjaaaaaabebedBdBdBdCdCdCbedHdHdHdIdIdIbedPdPdPdQdQdQbebeevevevewewewexexexeyeyeyezezezeAeAeAfdfdfdfefefefffffffgfgfgfKfKfKfLfLfLbebebegagagagbgbgbbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaacLcMcNaaaabebedBdBdBdCdCdCbedHdHdHdIdIdIbedPdPdPdQdQdQbebeevevevewewewexexexeyeyeyezezezeAeAeAfdfdfdfefefefffffffgfgfgfKfKfKfLfLfLbebebegagagagbgbgbbebebebebebebebebebebebe
+beaacOcPcQaaaacRaaaacSaaaaaaaaaaaaaaaabebedBdBdBdCdCdCbedHdHdHdIdIdIbedPdPdPdQdQdQbebeevevevewewewexexexeyeyeyezezezeAeAeAfdfdfdfefefefffffffgfgfgfKfKfKfLfLfLbebebegagagagbgbgbbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebedDdDdDdEdEdEbedJdJdJdKdKdKbedRdRdRdSdSdSbebeeBeBeBeCeCeCeDeDeDeEeEeEeFeFeFeGeGeGfhfhfhfifififjfjfjfkfkfkfMfMfMfNfNfNbebebegcgcgcgdgdgdbebebebebebebebebebebebe
+beaacTcUcVcWcXcYaacZdadbaadcdddeaadfdgbebedDdDdDdEdEdEbedJdJdJdKdKdKbedRdRdRdSdSdSbebeeBeBeBeCeCeCeDeDeDeEeEeEeFeFeFeGeGeGfhfhfhfifififjfjfjfkfkfkfMfMfMfNfNfNbebebegcgcgcgdgdgdbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabebedDdDdDdEdEdEbedJdJdJdKdKdKbedRdRdRdSdSdSbebeeBeBeBeCeCeCeDeDeDeEeEeEeFeFeFeGeGeGfhfhfhfifififjfjfjfkfkfkfMfMfMfNfNfNbebebegcgcgcgdgdgdbebebebebebebebebebebebe
+beaadhdidjdkaaaaaaaaaaaaaaaaaaaaaaaaaabebebebebebebebebedLdLdLbebebebedTdTdTbebebebebeeHeHeHeIeIeIeJeJeJeKeKeKeLeLeLeMeMeMflflflfmfmfmfnfnfnfofofofOfOfOfPfPfPbebebegegegegfgfgfbebebebebebebebebebebebe
+beaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabeejekekekelelelbedLdLdLbebebebedTdTdTbebebebebeeHeHeHeIeIeIeJeJeJeKeKeKeLeLeLeMeMeMflflflfmfmfmfnfnfnfofofofOfOfOfPfPfPbebebegegegegfgfgfbebebebebebebebebebebebe
+beemdUdVdWdXaaenecedeeefaaaaaaaaaaaaaabebeekekekelelelbedLdLdLbebebebedTdTdTbebebebebeeHeHeHeIeIeIeJeJeJeKeKeKeLeLeLeMeMeMflflflfmfmfmfnfnfnfofofofOfOfOfPfPfPbebebegegegegfgfgfbebebebebebebebebebebebe
+beaadYdZeaebaaaaegeheiaaaaaaaaaaaaaaaabebeekekekelelelbebebebebebebebebebebebebebebebeeNeNeNeOeOeOePePePeQeQeQeReReReSeSeSfpfpfpfqfqfqfrfrfrfsfsfsfQfQfQfRfRfRbebebeggggggghghghbebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeeNeNeNeOeOeOePePePeQeQeQeReReReSeSeSfpfpfpfqfqfqfrfrfrfsfsfsfQfQfQfRfRfRbebebeggggggghghghbebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebefXfXfXgkgkgkglglglgmgmgmbebebebebebebebebebeeNeNeNeOeOeOePePePeQeQeQeReReReSeSeSfpfpfpfqfqfqfrfrfrfsfsfsfQfQfQfRfRfRbebebeggggggghghghbebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebefXfXfXgkgkgkglglglgmgmgmbebebebebebebebebebeeTeTeTeUeUeUeVeVeVeWeWeWeXeXeXeYeYeYftftftfufufufvfvfvfwfwfwfTfTfTfUfUfUbebebegigigigjgjgjbebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebefXfXfXgkgkgkglglglgmgmgmbebebebebebebebebebeeTeTeTeUeUeUeVeVeVeWeWeWeXeXeXeYeYeYftftftfufufufvfvfvfwfwfwfTfTfTfUfUfUbebebegigigigjgjgjbebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebegngngngogogogpgpgpbebebebebebebebebebebebebeeTeTeTeUeUeUeVeVeVeWeWeWeXeXeXeYeYeYftftftfufufufvfvfvfwfwfwfTfTfTfUfUfUbebebegigigigjgjgjbebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebegngngngogogogpgpgpbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
+bebebebebebebebebebebebebebebebebebebebebegngngngogogogpgpgpbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
 bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
 bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
 bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe
