@@ -378,6 +378,9 @@
 	icon_state = "tile_purple"
 	initial_flooring = /decl/flooring/tiling/rustic/purple
 
+/turf/simulated/floor/tiled/rustic/metallic/
+	icon_state = null
+
 /turf/simulated/floor/tiled/rustic/metallic/bolts
 	icon_state = "bolts"
 	initial_flooring = /decl/flooring/tiling/rustic/metallic/bolts
@@ -1319,6 +1322,10 @@
 /turf/simulated/floor/tiled/oldtile/unique/bar
 	initial_flooring = /decl/flooring/tiling/oldtile/unique/bar
 	icon_state = "bar"
+
+/turf/simulated/floor/tiled/oldtile/unique/cafeteria
+	initial_flooring = /decl/flooring/tiling/oldtile/unique/cafeteria
+	icon_state = "cafeteria"
 
 /turf/simulated/floor/tiled/oldtile/unique/freezer
 	initial_flooring = /decl/flooring/tiling/oldtile/unique/freezer
