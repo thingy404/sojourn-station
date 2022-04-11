@@ -638,6 +638,759 @@ var/list/flooring_types
 /decl/flooring/tiling/rustic/purple
 	icon_base = "tile_purple"
 
+/decl/flooring/tiling/rustic/metallic/bolts
+	icon_base = "bolts"
+
+/decl/flooring/tiling/rustic/metallic/grille
+	icon_base = "grille"
+
+/decl/flooring/tiling/rustic/metallic/grooves
+	icon_base = "grooves"
+
+/decl/flooring/tiling/rustic/metallic/grid
+	icon_base = "grid"
+
+/decl/flooring/tiling/rustic/metallic/vents
+	icon_base = "vents"
+
+/decl/flooring/tiling/rustic/metallic/plates
+	icon_base = "plates"
+
+/decl/flooring/tiling/rustic/metallic/duct
+	icon_base = "duct"
+
+/*Old Tile*/
+
+/decl/flooring/tiling/oldtile
+	name = "floor"
+	icon = 'icons/turf/flooring/oldtile.dmi'
+	build_type = /obj/item/stack/material/steel
+	footstep_sound = "floor"
+
+/decl/flooring/tiling/oldtile/plain
+	icon_base = "floor"
+
+/decl/flooring/tiling/oldtile/dirtyplain
+	icon_base = "floordirty"
+
+/decl/flooring/tiling/oldtile/rustyplain
+	icon_base = "floorrusty"
+
+/decl/flooring/tiling/oldtile/plainsolid
+	icon_base = "floorsolid"
+
+/decl/flooring/tiling/oldtile/dirtyplainsolid
+	icon_base = "floordirtysolid"
+
+/decl/flooring/tiling/oldtile/rustyplainsolid
+	icon_base = "floorrustysolid"
+
+/decl/flooring/tiling/oldtile/white
+	icon_base = "white"
+
+/decl/flooring/tiling/oldtile/whitedirtyplain
+	icon_base = "whitedirty"
+
+/decl/flooring/tiling/oldtile/whiterustyplain
+	icon_base = "whiterusty"
+
+/decl/flooring/tiling/oldtile/whiteplainsolid
+	icon_base = "whitesolid"
+
+/decl/flooring/tiling/oldtile/whitedirtyplainsolid
+	icon_base = "whitedirtysolid"
+
+/decl/flooring/tiling/oldtile/whiterustyplainsolid
+	icon_base = "whiterustysolid"
+
+/decl/flooring/tiling/oldtile/dark
+	icon_base = "dark"
+
+/decl/flooring/tiling/oldtile/darkdirtyplain
+	icon_base = "darkdirty"
+
+/decl/flooring/tiling/oldtile/darkrustyplain
+	icon_base = "darkrusty"
+
+/decl/flooring/tiling/oldtile/darkplainsolid
+	icon_base = "darksolid"
+
+/decl/flooring/tiling/oldtile/whitedirtyplainsolid
+	icon_base = "darkdirtysolid"
+
+/decl/flooring/tiling/oldtile/whiterustyplainsolid
+	icon_base = "darkrustysolid"
+
+/decl/flooring/tiling/oldtile/verydark
+	icon_base = "verydark"
+
+
+/decl/flooring/tiling/oldtile/redfull
+	icon_base = "redfull"
+
+/decl/flooring/tiling/oldtile/redfull/dirty
+	icon_base = "reddirtyfull"
+
+/decl/flooring/tiling/oldtile/redfull/rusty
+	icon_base = "redrustyfull"
+
+/decl/flooring/tiling/oldtile/redsolid
+	icon_base = "redsolid"
+
+/decl/flooring/tiling/oldtile/redsolid/dirty
+	icon_base = "reddirtysolid"
+
+/decl/flooring/tiling/oldtile/redsolid/rusty
+	icon_base = "reddirtyfull"
+
+/decl/flooring/tiling/oldtile/red
+	icon_base = "red"
+
+/decl/flooring/tiling/oldtile/red/dirty
+	icon_base = "reddirty"
+
+/decl/flooring/tiling/oldtile/red/rusty
+	icon_base = "redrusty"
+
+/decl/flooring/tiling/oldtile/redcorner
+	icon_base = "redcorner"
+
+/decl/flooring/tiling/oldtile/redcorner/dirty
+	icon_base = "reddirtycorner"
+
+/decl/flooring/tiling/oldtile/redcorner/rusty
+	icon_base = "redrustycorner"
+
+/decl/flooring/tiling/oldtile/redchess
+	icon_base = "redchess"
+
+/decl/flooring/tiling/oldtile/redchess/dirty
+	icon_base = "reddirtychess"
+
+/decl/flooring/tiling/oldtile/redchess/rusty
+	icon_base = "redrustychess"
+
+/decl/flooring/tiling/oldtile/redchess2
+	icon_base = "redchess2"
+
+/decl/flooring/tiling/oldtile/redchess2/dirty
+	icon_base = "reddirtychess2"
+
+/decl/flooring/tiling/oldtile/redchess2/rusty
+	icon_base = "redrustychess2"
+
+/decl/flooring/tiling/oldtile/greenfull
+	icon_base = "greenfull"
+
+/decl/flooring/tiling/oldtile/greenfull/dirty
+	icon_base = "greendirtyfull"
+
+/decl/flooring/tiling/oldtile/greenfull/rusty
+	icon_base = "greenrustyfull"
+
+/decl/flooring/tiling/oldtile/greensolid
+	icon_base = "greensolid"
+
+/decl/flooring/tiling/oldtile/greensolid/dirty
+	icon_base = "greendirtysolid"
+
+/decl/flooring/tiling/oldtile/greensolid/rusty
+	icon_base = "greendirtyfull"
+
+/decl/flooring/tiling/oldtile/green
+	icon_base = "green"
+
+/decl/flooring/tiling/oldtile/green/dirty
+	icon_base = "greendirty"
+
+/decl/flooring/tiling/oldtile/green/rusty
+	icon_base = "greenrusty"
+
+/decl/flooring/tiling/oldtile/greencorner
+	icon_base = "greencorner"
+
+/decl/flooring/tiling/oldtile/greencorner/dirty
+	icon_base = "greendirtycorner"
+
+/decl/flooring/tiling/oldtile/greencorner/rusty
+	icon_base = "greenrustycorner"
+
+/decl/flooring/tiling/oldtile/greenchess
+	icon_base = "greenchess"
+
+/decl/flooring/tiling/oldtile/greenchess/dirty
+	icon_base = "greendirtychess"
+
+/decl/flooring/tiling/oldtile/greenchess/rusty
+	icon_base = "greenrustychess"
+
+/decl/flooring/tiling/oldtile/greenchess2
+	icon_base = "greenchess2"
+
+/decl/flooring/tiling/oldtile/greenchess2/dirty
+	icon_base = "greendirtychess2"
+
+/decl/flooring/tiling/oldtile/greenchess2/rusty
+	icon_base = "greenrustychess2"
+
+/decl/flooring/tiling/oldtile/yellowfull
+	icon_base = "yellowfull"
+
+/decl/flooring/tiling/oldtile/yellowfull/dirty
+	icon_base = "yellowdirtyfull"
+
+/decl/flooring/tiling/oldtile/yellowfull/rusty
+	icon_base = "yellowrustyfull"
+
+/decl/flooring/tiling/oldtile/yellowsolid
+	icon_base = "yellowsolid"
+
+/decl/flooring/tiling/oldtile/yellowsolid/dirty
+	icon_base = "yellowdirtysolid"
+
+/decl/flooring/tiling/oldtile/yellowsolid/rusty
+	icon_base = "yellowdirtyfull"
+
+/decl/flooring/tiling/oldtile/yellow
+	icon_base = "yellow"
+
+/decl/flooring/tiling/oldtile/yellow/dirty
+	icon_base = "yellowdirty"
+
+/decl/flooring/tiling/oldtile/yellow/rusty
+	icon_base = "yellowrusty"
+
+/decl/flooring/tiling/oldtile/yellowcorner
+	icon_base = "yellowcorner"
+
+/decl/flooring/tiling/oldtile/yellowcorner/dirty
+	icon_base = "yellowdirtycorner"
+
+/decl/flooring/tiling/oldtile/yellowcorner/rusty
+	icon_base = "yellowrustycorner"
+
+/decl/flooring/tiling/oldtile/yellowchess
+	icon_base = "yellowchess"
+
+/decl/flooring/tiling/oldtile/yellowchess/dirty
+	icon_base = "yellowdirtychess"
+
+/decl/flooring/tiling/oldtile/yellowchess/rusty
+	icon_base = "yellowrustychess"
+
+/decl/flooring/tiling/oldtile/yellowchess2
+	icon_base = "yellowchess2"
+
+/decl/flooring/tiling/oldtile/yellowchess2/dirty
+	icon_base = "yellowdirtychess2"
+
+/decl/flooring/tiling/oldtile/yellowchess2/rusty
+	icon_base = "yellowrustychess2"
+
+/decl/flooring/tiling/oldtile/bluefull
+	icon_base = "bluefull"
+
+/decl/flooring/tiling/oldtile/bluefull/dirty
+	icon_base = "bluedirtyfull"
+
+/decl/flooring/tiling/oldtile/bluefull/rusty
+	icon_base = "bluerustyfull"
+
+/decl/flooring/tiling/oldtile/bluesolid
+	icon_base = "bluesolid"
+
+/decl/flooring/tiling/oldtile/bluesolid/dirty
+	icon_base = "bluedirtysolid"
+
+/decl/flooring/tiling/oldtile/bluesolid/rusty
+	icon_base = "bluedirtyfull"
+
+/decl/flooring/tiling/oldtile/blue
+	icon_base = "blue"
+
+/decl/flooring/tiling/oldtile/blue/dirty
+	icon_base = "bluedirty"
+
+/decl/flooring/tiling/oldtile/blue/rusty
+	icon_base = "bluerusty"
+
+/decl/flooring/tiling/oldtile/bluecorner
+	icon_base = "bluecorner"
+
+/decl/flooring/tiling/oldtile/bluecorner/dirty
+	icon_base = "bluedirtycorner"
+
+/decl/flooring/tiling/oldtile/bluecorner/rusty
+	icon_base = "bluerustycorner"
+
+/decl/flooring/tiling/oldtile/bluechess
+	icon_base = "bluechess"
+
+/decl/flooring/tiling/oldtile/bluechess/dirty
+	icon_base = "bluedirtychess"
+
+/decl/flooring/tiling/oldtile/bluechess/rusty
+	icon_base = "bluerustychess"
+
+/decl/flooring/tiling/oldtile/bluechess2
+	icon_base = "bluechess2"
+
+/decl/flooring/tiling/oldtile/bluechess2/dirty
+	icon_base = "bluedirtychess2"
+
+/decl/flooring/tiling/oldtile/bluechess2/rusty
+	icon_base = "bluerustychess2"
+
+/decl/flooring/tiling/oldtile/purplefull
+	icon_base = "purplefull"
+
+/decl/flooring/tiling/oldtile/purplefull/dirty
+	icon_base = "purpledirtyfull"
+
+/decl/flooring/tiling/oldtile/purplefull/rusty
+	icon_base = "purplerustyfull"
+
+/decl/flooring/tiling/oldtile/purplesolid
+	icon_base = "purplesolid"
+
+/decl/flooring/tiling/oldtile/purplesolid/dirty
+	icon_base = "purpledirtysolid"
+
+/decl/flooring/tiling/oldtile/purplesolid/rusty
+	icon_base = "purpledirtyfull"
+
+/decl/flooring/tiling/oldtile/purple
+	icon_base = "purple"
+
+/decl/flooring/tiling/oldtile/purple/dirty
+	icon_base = "purpledirty"
+
+/decl/flooring/tiling/oldtile/purple/rusty
+	icon_base = "purplerusty"
+
+/decl/flooring/tiling/oldtile/purplecorner
+	icon_base = "purplecorner"
+
+/decl/flooring/tiling/oldtile/purplecorner/dirty
+	icon_base = "purpledirtycorner"
+
+/decl/flooring/tiling/oldtile/purplecorner/rusty
+	icon_base = "purplerustycorner"
+
+/decl/flooring/tiling/oldtile/purplechess
+	icon_base = "purplechess"
+
+/decl/flooring/tiling/oldtile/purplechess/dirty
+	icon_base = "purpledirtychess"
+
+/decl/flooring/tiling/oldtile/purplechess/rusty
+	icon_base = "purplerustychess"
+
+/decl/flooring/tiling/oldtile/purplechess2
+	icon_base = "purplechess2"
+
+/decl/flooring/tiling/oldtile/purplechess2/dirty
+	icon_base = "purpledirtychess2"
+
+/decl/flooring/tiling/oldtile/purplechess2/rusty
+	icon_base = "purplerustychess2"
+
+/decl/flooring/tiling/oldtile/neutralfull
+	icon_base = "neutralfull"
+
+/decl/flooring/tiling/oldtile/neutralfull/dirty
+	icon_base = "neutraldirtyfull"
+
+/decl/flooring/tiling/oldtile/neutralfull/rusty
+	icon_base = "neutralrustyfull"
+
+/decl/flooring/tiling/oldtile/neutralsolid
+	icon_base = "neutralsolid"
+
+/decl/flooring/tiling/oldtile/neutralsolid/dirty
+	icon_base = "neutraldirtysolid"
+
+/decl/flooring/tiling/oldtile/neutralsolid/rusty
+	icon_base = "neutraldirtyfull"
+
+/decl/flooring/tiling/oldtile/neutral
+	icon_base = "neutral"
+
+/decl/flooring/tiling/oldtile/neutral/dirty
+	icon_base = "neutraldirty"
+
+/decl/flooring/tiling/oldtile/neutral/rusty
+	icon_base = "neutralrusty"
+
+/decl/flooring/tiling/oldtile/neutralcorner
+	icon_base = "neutralcorner"
+
+/decl/flooring/tiling/oldtile/neutralcorner/dirty
+	icon_base = "neutraldirtycorner"
+
+/decl/flooring/tiling/oldtile/neutralcorner/rusty
+	icon_base = "neutralrustycorner"
+
+/decl/flooring/tiling/oldtile/neutralchess
+	icon_base = "neutralchess"
+
+/decl/flooring/tiling/oldtile/neutralchess/dirty
+	icon_base = "neutraldirtychess"
+
+/decl/flooring/tiling/oldtile/neutralchess/rusty
+	icon_base = "neutralrustychess"
+
+/decl/flooring/tiling/oldtile/neutralchess2
+	icon_base = "neutralchess2"
+
+/decl/flooring/tiling/oldtile/neutralchess2/dirty
+	icon_base = "neutraldirtychess2"
+
+/decl/flooring/tiling/oldtile/neutralchess2/rusty
+	icon_base = "neutralrustychess2"
+
+/decl/flooring/tiling/oldtile/whitered
+	icon_base = "whitered"
+
+/decl/flooring/tiling/oldtile/whitered/dirty
+	icon_base = "whitereddirty"
+
+/decl/flooring/tiling/oldtile/whitered/rusty
+	icon_base = "whiteredrusty"
+
+/decl/flooring/tiling/oldtile/whiteredcorner
+	icon_base = "whiteredcorner"
+
+/decl/flooring/tiling/oldtile/whiteredcorner/dirty
+	icon_base = "whitereddirtycorner"
+
+/decl/flooring/tiling/oldtile/whiteredcorner/rusty
+	icon_base = "whiteredrustycorner"
+
+/decl/flooring/tiling/oldtile/whiteredchess
+	icon_base = "whiteredchess"
+
+/decl/flooring/tiling/oldtile/whiteredchess/dirty
+	icon_base = "whitereddirtychess"
+
+/decl/flooring/tiling/oldtile/whiteredchess/rusty
+	icon_base = "whiteredrustychess"
+
+/decl/flooring/tiling/oldtile/whiteredchess2
+	icon_base = "whiteredchess2"
+
+/decl/flooring/tiling/oldtile/whiteredchess2/dirty
+	icon_base = "whitereddirtychess2"
+
+/decl/flooring/tiling/oldtile/whiteredchess2/rusty
+	icon_base = "whiteredrustychess2"
+
+/decl/flooring/tiling/oldtile/whitegreen/dirty
+	icon_base = "whitegreen"
+
+/decl/flooring/tiling/oldtile/whitegreen/dirty
+	icon_base = "whitegreendirty"
+
+/decl/flooring/tiling/oldtile/whitegreen/rusty
+	icon_base = "whitegreenrusty"
+
+/decl/flooring/tiling/oldtile/whitegreencorner
+	icon_base = "whitegreencorner"
+
+/decl/flooring/tiling/oldtile/whitegreencorner/dirty
+	icon_base = "whitegreendirtycorner"
+
+/decl/flooring/tiling/oldtile/whitegreencorner/rusty
+	icon_base = "whitegreenrustycorner"
+
+/decl/flooring/tiling/oldtile/whitegreenchess
+	icon_base = "whitegreenchess"
+
+/decl/flooring/tiling/oldtile/whitegreenchess/dirty
+	icon_base = "whitegreendirtychess"
+
+/decl/flooring/tiling/oldtile/whitegreenchess/rusty
+	icon_base = "whitegreenrustychess"
+
+/decl/flooring/tiling/oldtile/whitegreenchess2
+	icon_base = "whitegreenchess2"
+
+/decl/flooring/tiling/oldtile/whitegreenchess2/dirty
+	icon_base = "whitegreendirtychess2"
+
+/decl/flooring/tiling/oldtile/whitegreenchess2/rusty
+	icon_base = "whitegreenrustychess2"
+
+/decl/flooring/tiling/oldtile/whiteyellow
+	icon_base = "whiteyellow"
+
+/decl/flooring/tiling/oldtile/whiteyellow/dirty
+	icon_base = "whiteyellowdirty"
+
+/decl/flooring/tiling/oldtile/whiteyellow/rusty
+	icon_base = "whiteyellowrusty"
+
+/decl/flooring/tiling/oldtile/whiteyellowcorner
+	icon_base = "whiteyellowcorner"
+
+/decl/flooring/tiling/oldtile/whiteyellowcorner/dirty
+	icon_base = "whiteyellowdirtycorner"
+
+/decl/flooring/tiling/oldtile/whiteyellowcorner/rusty
+	icon_base = "whiteyellowrustycorner"
+
+/decl/flooring/tiling/oldtile/whiteyellowchess
+	icon_base = "whiteyellowchess"
+
+/decl/flooring/tiling/oldtile/whiteyellowchess/dirty
+	icon_base = "whiteyellowdirtychess"
+
+/decl/flooring/tiling/oldtile/whiteyellowchess/rusty
+	icon_base = "whiteyellowrustychess"
+
+/decl/flooring/tiling/oldtile/whiteyellowchess2
+	icon_base = "whiteyellowchess2"
+
+/decl/flooring/tiling/oldtile/whiteyellowchess2/dirty
+	icon_base = "whiteyellowdirtychess2"
+
+/decl/flooring/tiling/oldtile/whiteyellowchess2/rusty
+	icon_base = "whiteyellowrustychess2"
+
+/decl/flooring/tiling/oldtile/whiteblue
+	icon_base = "whiteblue"
+
+/decl/flooring/tiling/oldtile/whiteblue/dirty
+	icon_base = "whitebluedirty"
+
+/decl/flooring/tiling/oldtile/whiteblue/rusty
+	icon_base = "whitebluerusty"
+
+/decl/flooring/tiling/oldtile/whitebluecorner
+	icon_base = "whitebluecorner"
+
+/decl/flooring/tiling/oldtile/whitebluecorner/dirty
+	icon_base = "whitebluedirtycorner"
+
+/decl/flooring/tiling/oldtile/whitebluecorner/rusty
+	icon_base = "whitebluerustycorner"
+
+/decl/flooring/tiling/oldtile/whitebluechess
+	icon_base = "whitebluechess"
+
+/decl/flooring/tiling/oldtile/whitebluechess/dirty
+	icon_base = "whitebluedirtychess"
+
+/decl/flooring/tiling/oldtile/whitebluechess/rusty
+	icon_base = "whitebluerustychess"
+
+/decl/flooring/tiling/oldtile/whitebluechess2
+	icon_base = "whitebluechess2"
+
+/decl/flooring/tiling/oldtile/whitebluechess2/dirty
+	icon_base = "whitebluedirtychess2"
+
+/decl/flooring/tiling/oldtile/whitebluechess2/rusty
+	icon_base = "whitebluerustychess2"
+
+/decl/flooring/tiling/oldtile/whitepurple
+	icon_base = "whitepurple"
+
+/decl/flooring/tiling/oldtile/whitepurple/dirty
+	icon_base = "whitepurpledirty"
+
+/decl/flooring/tiling/oldtile/whitepurple/rusty
+	icon_base = "whitepurplerusty"
+
+/decl/flooring/tiling/oldtile/whitepurplecorner
+	icon_base = "whitepurplecorner"
+
+/decl/flooring/tiling/oldtile/whitepurplecorner/dirty
+	icon_base = "whitepurpledirtycorner"
+
+/decl/flooring/tiling/oldtile/whitepurplecorner/rusty
+	icon_base = "whitepurplerustycorner"
+
+/decl/flooring/tiling/oldtile/whitepurplechess
+	icon_base = "whitepurplechess"
+
+/decl/flooring/tiling/oldtile/whitepurplechess/dirty
+	icon_base = "whitepurpledirtychess"
+
+/decl/flooring/tiling/oldtile/whitepurplechess/rusty
+	icon_base = "whitepurplerustychess"
+
+/decl/flooring/tiling/oldtile/whitepurplechess2
+	icon_base = "whitepurplechess2"
+
+/decl/flooring/tiling/oldtile/whitepurplechess2/dirty
+	icon_base = "whitepurpledirtychess2"
+
+/decl/flooring/tiling/oldtile/whitepurplechess2/rusty
+	icon_base = "whitepurplerustychess2"
+
+/decl/flooring/tiling/oldtile/whiteneutral
+	icon_base = "whiteneutral"
+
+/decl/flooring/tiling/oldtile/whiteneutral/dirty
+	icon_base = "whiteneutraldirty"
+
+/decl/flooring/tiling/oldtile/whiteneutral/rusty
+	icon_base = "whiteneutralrusty"
+
+/decl/flooring/tiling/oldtile/whiteneutralcorner
+	icon_base = "whiteneutralcorner"
+
+/decl/flooring/tiling/oldtile/whiteneutralcorner/dirty
+	icon_base = "whiteneutraldirtycorner"
+
+/decl/flooring/tiling/oldtile/whiteneutralcorner/rusty
+	icon_base = "whiteneutralrustycorner"
+
+/decl/flooring/tiling/oldtile/whiteneutralchess
+	icon_base = "whiteneutralchess"
+
+/decl/flooring/tiling/oldtile/whiteneutralchess/dirty
+	icon_base = "whiteneutraldirtychess"
+
+/decl/flooring/tiling/oldtile/whiteneutralchess/rusty
+	icon_base = "whiteneutralrustychess"
+
+/decl/flooring/tiling/oldtile/whiteneutralchess2
+	icon_base = "whiteneutralchess2"
+
+/decl/flooring/tiling/oldtile/whiteneutralchess2/dirty
+	icon_base = "whiteneutraldirtychess2"
+
+/decl/flooring/tiling/oldtile/whiteneutralchess2/rusty
+	icon_base = "whiteneutralrustychess2"
+
+/decl/flooring/tiling/oldtile/dark/darkred
+	icon_base = "darkred"
+
+/decl/flooring/tiling/oldtile/dark/darkredcorner
+	icon_base = "darkredcorner"
+
+/decl/flooring/tiling/oldtile/dark/darkgreen
+	icon_base = "darkgreen"
+
+/decl/flooring/tiling/oldtile/dark/darkgreencorner
+	icon_base = "darkgreencorner"
+
+/decl/flooring/tiling/oldtile/dark/darkyellow
+	icon_base = "darkyellow"
+
+/decl/flooring/tiling/oldtile/dark/darkyellowcorner
+	icon_base = "darkyellowcorner"
+
+/decl/flooring/tiling/oldtile/dark/darkblue
+	icon_base = "darkblue"
+
+/decl/flooring/tiling/oldtile/dark/darkbluecorner
+	icon_base = "darkbluecorner"
+
+/decl/flooring/tiling/oldtile/dark/darkpurple
+	icon_base = "darkpurple"
+
+/decl/flooring/tiling/oldtile/dark/darkpurplecorner
+	icon_base = "darkpurplecorner"
+
+/decl/flooring/tiling/oldtile/dark/darkneutral
+	icon_base = "darkneutral"
+
+/decl/flooring/tiling/oldtile/dark/darkneutralcorner
+	icon_base = "darkneutralcorner"
+
+/decl/flooring/tiling/oldtile/unique/checker/redyellow
+	icon_base = "redyellow"
+
+/decl/flooring/tiling/oldtile/unique/checker/redyellowfull
+	icon_base = "redyellowfull"
+
+/decl/flooring/tiling/oldtile/unique/checker/redblue
+	icon_base = "redblue"
+
+/decl/flooring/tiling/oldtile/unique/checker/redbluefull
+	icon_base = "redbluefull"
+
+/decl/flooring/tiling/oldtile/unique/checker/redgreen
+	icon_base = "redgreen"
+
+/decl/flooring/tiling/oldtile/unique/checker/redgreenfull
+	icon_base = "redgreenfull"
+
+/decl/flooring/tiling/oldtile/unique/checker/greenyellow
+	icon_base = "greenyellow"
+
+/decl/flooring/tiling/oldtile/unique/checker/greenyellowfull
+	icon_base = "greenyellowfull"
+
+/decl/flooring/tiling/oldtile/unique/checker/greenblue
+	icon_base = "greenblue"
+
+/decl/flooring/tiling/oldtile/unique/checker/greenbluefull
+	icon_base = "greenbluefull"
+
+/decl/flooring/tiling/oldtile/unique/checker/blueyellow
+	icon_base = "blueyellow"
+
+/decl/flooring/tiling/oldtile/unique/checker/blueyellowfull
+	icon_base = "blueyellowfull"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*unique*/
+
+/decl/flooring/tiling/oldtile/unique/bar
+	icon_base = "bar"
+
+/decl/flooring/tiling/oldtile/unique/freezer
+	icon_base = "freezer"
+
+/decl/flooring/tiling/oldtile/unique/showroom
+	icon_base = "showroom"
+
+/decl/flooring/tiling/oldtile/unique/hydro
+	icon_base = "hydro"
+
+/decl/flooring/tiling/oldtile/unique/vault
+	icon_base = "vault"
+
+
+
+
+
+
+
+
+
+
+
 //==========MISC==============//
 
 /decl/flooring/wood

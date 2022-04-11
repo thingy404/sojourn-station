@@ -84,3 +84,15 @@
 
 /obj/structure/catwalk/can_prevent_fall()
 	return FALSE
+
+/obj/structure/catwalk/rustic/update_icon()
+	return
+
+/obj/structure/catwalk/rustic/redraw_nearby_catwalks()
+	return
+
+/obj/structure/catwalk/rustic/grid
+	icon_state = "latticegrid"
+
+/obj/structure/catwalk/rustic/diamond
+	icon_state = "latticediamond"
