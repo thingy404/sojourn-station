@@ -60,6 +60,13 @@
 		if(LARGE_HOLE)
 			. += "\The [src] has been completely cut through."
 
+/obj/structure/fence/small
+	name = "fence"
+	desc = "A small metal safety fence."
+	icon_state = "small"
+	cuttable= FALSE
+	climbable = TRUE
+
 /obj/structure/fence/pipe
 	name = "pipe"
 	desc = "A large rusted pipe."
