@@ -658,7 +658,7 @@
 	initial_flooring = /decl/flooring/tiling/oldtile/yellowsolid/dirty
 
 /turf/simulated/floor/tiled/oldtile/yellow/yellowsolid/rusty
-	icon_state = "yellowdirtyfull"
+	icon_state = "yellowrustysolid"
 	initial_flooring = /decl/flooring/tiling/oldtile/yellowsolid/rusty
 
 /turf/simulated/floor/tiled/oldtile/yellow/yellow

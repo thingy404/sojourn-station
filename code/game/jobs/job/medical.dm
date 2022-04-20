@@ -1,5 +1,5 @@
 /datum/job/cmo
-	title = "Chief Biolab Overseer"
+	title = "Senior Physician"
 	flag = CBO
 	head_position = 1
 	department = DEPARTMENT_MEDICAL
@@ -54,7 +54,7 @@
 	In times of crisis, lock down the medbay to protect those within, from outside threats."
 
 /obj/landmark/join/start/cmo
-	name = "Chief Biolab Overseer"
+	name = "Senior Physician"
 	icon_state = "player-green-officer"
 	join_tag = /datum/job/cmo
 

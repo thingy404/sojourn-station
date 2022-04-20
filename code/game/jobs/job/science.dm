@@ -1,5 +1,5 @@
 /datum/job/rd
-	title = "Chief Research Overseer"
+	title = "Headmaster"
 	flag = CRO
 	head_position = 1
 	department = DEPARTMENT_SCIENCE
@@ -53,7 +53,7 @@
 	Consider organizing away missions and expeditions to acquire artifacts and other valuable items."
 
 /obj/landmark/join/start/rd
-	name = "Chief Research Overseer"
+	name = "Headmaster"
 	icon_state = "player-purple-officer"
 	join_tag = /datum/job/rd
 

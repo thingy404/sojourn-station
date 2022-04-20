@@ -1,5 +1,5 @@
 /datum/job/smc
-	title = "Blackshield Commander"
+	title = "Militia Captain"
 	flag = SMC
 	head_position = 1
 	department = DEPARTMENT_SECURITY
@@ -44,25 +44,28 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/reports)
 
-	description = "The Blackshield Commander serves as the commander of the local regiment of the Blackshield.<br>\
-	Contracted to protect and serve the colony, your faction serves as a voluntary first (and hopefully last) line of defense.<br>\
-	Your goal is to keep everyone living on the colony as safe as possible and to eliminate any threats to safety.<br>\
-	The Warrant Officer is your ally and you should work closely with them, they handle the upholding of the law."
+	description = "The Militia Captain serves as the commander of the local regiment of the Commonwealth Militia Brotherhood.<br>\
+	While not officially recognised by the Amerethi Commonwealth, the CMB strives to protect the residents of the frontier.<br>\
+	Your goal is to maintain some semblance of law and order, serving as part of an efficient police and military force.<br>\
+	The Sergeant-At-Arms oversees day-to-day operations in the precinct and jail, and you should work closely with them."
 
-	duties = "Coordinate operatives in the field, assigning them to threats and distress calls as needed.<br>\
-		Work with the Warrant Officer to allocate funds to supply your teams with whatever munitions or equipment they need.<br>\
-		Plan assaults on entrenched threats, ensure each operative knows their roles and carries them out precisely.<br>\
-		Oversee performance of the operatives under your command and punish any that are insubordinate or incompetent.<br>\
-		Advise the council on threats to colony security and advise them towards choices that will minimise exposure to threats."
+	duties = "Coordinate militia in the field, assigning them to threats and distress calls as needed.<br>\
+		Work with the Sergeant-At-Arms to allocate funds to supply your teams with whatever munitions or equipment they need.<br>\
+		Plan assaults on entrenched threats, ensure your teams know their roles and carry them out precisely.<br>\
+		Oversee performance of the militia under your command and punish any that are insubordinate or incompetent.<br>\
+		Advise the council on threats to outpost security and advise them towards choices that will minimise exposure to threats."
 
 /obj/landmark/join/start/smc
-	name = "Blackshield Commander"
+	name = "Militia Captain"
 	icon_state = "player-blue-officer"
 	join_tag = /datum/job/smc
 
 
+
+
+
 /datum/job/swo
-	title = "Warrant Officer"
+	title = "Sergeant-At-Arms"
 	flag = SWO
 	head_position = 1
 	department = DEPARTMENT_SECURITY
@@ -106,25 +109,28 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/reports)
 
-	description = "The Warrant Officer serves as the head officer of the local regiment of the Marshals.<br>\
-	Contracted to protect and serve the colony, your internal police force is dedicated to the fight against criminal elements.<br>\
-	Your main objective is to keep everyone safe by maintaining order, and upholding laws of all manner within the colony.<br>\
-	The Blackshield Commander is your ally and you should work closely with them - they provide the muscle and guns to defend the colony."
+	description = "The Sergeant-At-Arms serves as the head officer of the local regiment of the Commonwealth Militia Brotherhood.<br>\
+	While not officially recognised by the Amerethi Commonwealth, the CMB strives to protect the residents of the frontier.<br>\
+	Your goal is to maintain some semblance of law and order, serving as part of an efficient police and military force.<br>\
+	The Militia Commander oversees the security of the colony as a whole, and you should work closely with them."
 
-	duties = "Coordinate officers around the colony, assigning them to tasks and distress calls as needed.<br>\
-		Work with the Blackshield Commander to allocate funds to supply your teams with whatever armor, supplies, weapons, munitions, or tools they need.<br>\
-		Keep the peace around the colony and ensure each officer knows their roles and carries them out precisely.<br>\
-		Oversee performance of the officers under your command and punish any that are insubordinate or incompetent.<br>\
-		Advise the council on threats to colony security and advise them towards choices that will uphold the public trust."
+	duties = "Coordinate militia around the outpost, assigning them to tasks and distress calls as needed.<br>\
+		Work with the Militia Commander to allocate funds to supply your teams with whatever armor, supplies, weapons, munitions, or tools they need.<br>\
+		Keep the peace around the colony and ensure your teams know their roles and carry them out precisely.<br>\
+		Oversee performance of militia under your command and punish any that are insubordinate or incompetent.<br>\
+		Advise the council on threats to outpost security and advise them towards choices that will uphold the public trust."
 
 /obj/landmark/join/start/swo
-	name = "Warrant Officer"
+	name = "Sergeant-At-Arms"
 	icon_state = "player-blue-officer"
 	join_tag = /datum/job/swo
 
 
+
+
+
 /datum/job/supsec
-	title = "Supply Specialist"
+	title = "Armorer"
 	flag = SUPSEC
 	department = DEPARTMENT_SECURITY
 	department_flag = SECURITY
@@ -159,72 +165,22 @@
 				 /datum/perk/codespeak,
 				 /datum/perk/chem_contraband)
 
-	description = "The Supply Specialist is the right hand of the warrant officer and the defacto controller of the armory and armory shop. <br>\
-	Your role is mainly a desk job - with duties rarely taking you outside of the colony or even the armory.<br>\
-	You will often be called to sell weaponry and armory to colonists, maintaining the stock of the equipment and tracking who has what.<br>\
-	You will also be often asked to watch or process prisoners. Perform regular checkups on anyone locked in the brig - breakouts are intolerable.<br>\
-	In quieter times, you serve as the on-site weapons instructor. Take the initiative to offer a variety of training drills, especially to junior operatives.<br>\
-	Remember that any Warrant Officer duties may be delegated to you if they wish and internal tasks will fall to you at times."
+	description = "The Armorer is the right hand of the Sergeant-At-Arms, and the defacto controller of the armory.<br>\
+	While not officially recognised by the Amerethi Commonwealth, the CMB strives to protect the residents of the frontier.<br>\
+	Your goal is to maintain some semblance of law and order, serving as part of an efficient police and military force.<br>\
+	This role is mainly a desk job, managing incoming and outgoing armory equipment with an iron grip."
 
 	duties = "Manage a good balance of armory stock, and dispense responsibly with a paper trail and fair price.<br>\
-	Monitor prisoners in the brig to ensure their health and safety.<br>\
-	Perform training drills and other exercises to bring the Marshals up to standard."
+	Serve as an on-site weapon instructor in quieter moments, performing training drills and other exercises.<br>\
+	Adapt to any other internal duties delegated to you by the Sergeant-At-Arms."
 
 /obj/landmark/join/start/supsec
-	name = "Supply Specialist"
+	name = "Armorer"
 	icon_state = "player-blue"
 	join_tag = /datum/job/supsec
 
 
-/datum/job/serg
-	title = "Sergeant"
-	flag = SERG
-	department = DEPARTMENT_SECURITY
-	department_flag = SECURITY
-	faction = MAP_FACTION
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Blackshield Commander"
-	difficulty = "Hard."
-	selection_color = "#a7bbc6"
-	department_account_access = TRUE
-	wage = WAGE_LABOUR_HAZARD
-	minimum_character_age = 25
 
-	outfit_type = /decl/hierarchy/outfit/job/security/serg
-
-	access = list(
-		access_security, access_medspec, access_engine, access_mailsorting,
-		access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_morgue,
-		access_external_airlocks, access_research_equipment, access_prospector, access_kitchen
-	)
-
-	stat_modifiers = list(
-		STAT_ROB = 25,
-		STAT_TGH = 25,
-		STAT_VIG = 25,
-	)
-
-	perks = list(/datum/perk/job/blackshield_conditioning, /datum/perk/job/bolt_reflect, /datum/perk/chem_contraband)
-
-	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
-							 /datum/computer_file/program/camera_monitor)
-
-	description = "The Sergeant is the second-in-command of the Blackshield and the de-facto commanding officer if the Blackshield commander isn't around or injured. <br>\
-	Your role is mainly keeping order among the Blackshield troopers and corpsman and ensuring they do not act like a pack of thugs.<br>\
-	You will often be maintaining discipline and order within the ranks and fulfilling orders from the Blackshield commander.<br>\
-	You will also the secondary squad leader during conflicts, often times leading troopers independent of the Blackshield commander, but usually under his explicit orders.<br>\
-	In quieter times, you serve as a form of military police and drill instructor. Take the initiative to offer a variety of training drills, especially to junior operatives and report behavior that should have a member of security removed from their post.<br>\
-	Remember that any Blackshield Commander duties may be delegated to you if they wish, and will automatically be given if they are not present."
-
-	duties = "Manage good ethics among security, including the blackshield and marshals with a record of everything responsibly and recorded.<br>\
-	Give training and instruction to troopers. Run drills and ensure they are prepared for firing lines, kill zones, and breach tactics.<br>\
-	Follow the orders of the Blackshield Commander and in his absence keep security in line."
-
-/obj/landmark/join/start/serg
-	name = "Sergeant"
-	icon_state = "player-blue"
-	join_tag = /datum/job/serg
 
 
 /datum/job/inspector
@@ -237,7 +193,6 @@
 	spawn_positions = 2
 	supervisors = "the Warrant Officer"
 	difficulty = "Hard."
-	alt_titles = list("Detective","Forensics Specialist")
 	selection_color = "#a7bbc6"
 	wage = WAGE_PROFESSIONAL
 
@@ -281,6 +236,61 @@
 	join_tag = /datum/job/inspector
 
 
+
+
+
+/datum/job/templar
+	title = "Templar"
+	flag = TROOPER
+	department = DEPARTMENT_SECURITY
+	department_flag = SECURITY
+	faction = MAP_FACTION
+	total_positions = 4
+	spawn_positions = 4
+	supervisors = "the Blackshield Commander"
+	difficulty = "Hard."
+	selection_color = "#a7bbc6"
+	wage = WAGE_LABOUR_HAZARD
+
+	outfit_type = /decl/hierarchy/outfit/job/security/troop
+
+	perks = list(/datum/perk/job/bolt_reflect, /datum/perk/job/blackshield_conditioning, /datum/perk/chem_contraband)
+
+	access = list(
+		access_security, access_eva,
+		access_sec_doors, access_brig, access_maint_tunnels, access_external_airlocks
+	)
+
+	stat_modifiers = list(
+		STAT_ROB = 25,
+		STAT_TGH = 20,
+		STAT_VIG = 25,
+	)
+
+	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
+							 /datum/computer_file/program/camera_monitor)
+
+	description = "The Trooper forms the base of the Blackshield, the front line against pirates, terrorists, and xenos.<br>\
+	You are the closest thing to a professional soldier the colony has. Employ your talents to bring an end to threats and conflict situations.<br>\
+	Tactics and teamwork are vital. You are paid to follow orders, not to think. Remember your focus on external threats - leave otherwise to Marshals.<br>\
+	When there are no standing orders, your ongoing task is to patrol and be on the lookout for threats or problems. Help the Marshals if explicitly asked. <br>\
+	Watch the main gate and perimeter. You have access to most places to help with your duties - do not abuse this."
+
+	duties = "Patrol the colony, provide a security presence, and look for trouble.<br>\
+		Deal with external threats to the colony such as pirates, hostile xenos, and anything that endangers colonists.<br>\
+		Exterminate monsters, giant vermin and hostile machines.<br>\
+		Follow orders from the chain of command.<br>\
+		Obey the law. You are not above it."
+
+/obj/landmark/join/start/templar
+	name = "Templar"
+	icon_state = "player-blue"
+	join_tag = /datum/job/trooper
+
+
+
+
+
 /datum/job/medspec
 	title = "Corpsman"
 	flag = MEDSPEC
@@ -291,7 +301,6 @@
 	spawn_positions = 2
 	supervisors = "the Blackshield Commander"
 	difficulty = "Hard."
-	alt_titles = list("Combat Medic","Combat Surgeon")
 	selection_color = "#a7bbc6"
 	wage = WAGE_PROFESSIONAL
 
@@ -334,8 +343,11 @@
 	join_tag = /datum/job/medspec
 
 
+
+
+
 /datum/job/trooper
-	title = "Blackshield Trooper"
+	title = "Trooper"
 	flag = TROOPER
 	department = DEPARTMENT_SECURITY
 	department_flag = SECURITY
@@ -344,7 +356,6 @@
 	spawn_positions = 4
 	supervisors = "the Blackshield Commander"
 	difficulty = "Hard."
-	alt_titles = list("Blackshield Cadet", "Blackshield Militiamen")
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR_HAZARD
 
@@ -379,13 +390,16 @@
 		Obey the law. You are not above it."
 
 /obj/landmark/join/start/trooper
-	name = "Blackshield Trooper"
+	name = "Trooper"
 	icon_state = "player-blue"
 	join_tag = /datum/job/trooper
 
 
+
+
+
 /datum/job/officer
-	title = "Marshal Officer"
+	title = "Rifleman"
 	flag = OFFICER
 	department = DEPARTMENT_SECURITY
 	department_flag = SECURITY
@@ -394,9 +408,9 @@
 	spawn_positions = 4
 	supervisors = "the Warrant Officer"
 	difficulty = "Hard."
-	alt_titles = list("Marshal Junior Officer")
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR_HAZARD
+	alt_titles = list("Volunteer")
 
 	outfit_type = /decl/hierarchy/outfit/job/security/ihoper
 
@@ -429,6 +443,6 @@
 		Obey the law. You are not above it."
 
 /obj/landmark/join/start/officer
-	name = "Marshal Officer"
+	name = "Rifleman"
 	icon_state = "player-blue"
 	join_tag = /datum/job/officer

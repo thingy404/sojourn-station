@@ -1,5 +1,5 @@
 /datum/job/chaplain
-	title = "Prime"
+	title = "Abbot"
 	flag = CHAPLAIN
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH | COMMAND
@@ -13,6 +13,7 @@
 	ideal_character_age = 40
 	minimum_character_age = 30
 	playtimerequired = 1200
+	alt_titles = list("Abbess")
 	also_known_languages = list(LANGUAGE_LATIN = 100)
 	security_clearance = CLEARANCE_CLERGY
 	access = list(
@@ -55,12 +56,12 @@
 	setup_restricted = TRUE
 
 /obj/landmark/join/start/chaplain
-	name = "Prime"
+	name = "Abbot"
 	icon_state = "player-black"
 	join_tag = /datum/job/chaplain
 
 /datum/job/acolyte
-	title = "Vector"
+	title = "Chaplain"
 	flag = ACOLYTE
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
@@ -101,6 +102,6 @@
 	setup_restricted = TRUE
 
 /obj/landmark/join/start/acolyte
-	name = "Vector"
+	name = "Chaplain"
 	icon_state = "player-black"
 	join_tag = /datum/job/acolyte

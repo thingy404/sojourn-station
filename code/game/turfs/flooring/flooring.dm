@@ -849,7 +849,7 @@ var/list/flooring_types
 	icon_base = "yellowdirtysolid"
 
 /decl/flooring/tiling/oldtile/yellowsolid/rusty
-	icon_base = "yellowdirtyfull"
+	icon_base = "yellowrustysolid"
 
 /decl/flooring/tiling/oldtile/yellow
 	icon_base = "yellow"

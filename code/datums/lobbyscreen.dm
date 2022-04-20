@@ -21,39 +21,12 @@
 	musicTrack = pick(possibleMusic)
 	return ..()
 
-/datum/lobbyscreen/ship
-	image_file = 'icons/title_screens/ship.png'
+/datum/lobbyscreen/title1
+	image_file = 'icons/title_screens/title1.png'
 	possibleMusic = list(
-		'sound/music/lobby/Duke_Gneiss-Bluespace.ogg',
-		'sound/music/lobby/Duke_Gneiss-Exploring.ogg'
+		'sound/music/lobby/title_ambience1.ogg',
+		'sound/music/lobby/title_ambience2.ogg'
 		)
-
-
-/datum/lobbyscreen/enroute
-	image_file = 'icons/title_screens/transit.png'
-	possibleMusic = list(
-		'sound/music/lobby/transit.ogg',
-		'sound/music/lobby/Duke_Gneiss-Metropolis.ogg'
-		)
-
-/datum/lobbyscreen/ironhammer
-	image_file = 'icons/title_screens/ironhammer.png'
-	possibleMusic = list(
-		'sound/music/lobby/Duke_Gneiss-The_Runner_in_motion.ogg',
-		'sound/music/lobby/Duke_Gneiss-Metropolis.ogg'
-		)
-
-
-/datum/lobbyscreen/onestar
-	image_file = 'icons/title_screens/onestar.png'
-	possibleMusic = list(
-		'sound/music/lobby/Duke_Gneiss-Downtown_2.ogg'
-		)
-
-/datum/lobbyscreen/neotheology
-	image_file = 'icons/title_screens/neotheology.png'
-	possibleMusic = list(
-		'sound/music/lobby/Duke_Gneiss-Neotheology.ogg')
 
 /datum/lobbyscreen/proc/play_music(client/C)
 	if(!musicTrack)
